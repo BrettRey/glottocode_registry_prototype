@@ -3,8 +3,8 @@
 Batch import pipeline: CSV/TSV -> JSONL -> web registry -> validate -> quality.
 
 Usage:
-  python scripts/batch_import.py input.csv data/registry.jsonl web/registry.json
-  python scripts/batch_import.py input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json
+  python scripts/batch_import.py input.csv data/registry.jsonl registry.json
+  python scripts/batch_import.py input.csv data/registry.jsonl registry.json --append --schema schema/resource.schema.json
 """
 import argparse
 import subprocess
@@ -21,7 +21,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Batch import pipeline for registry.")
     parser.add_argument("input", help="CSV/TSV input file")
     parser.add_argument("output_jsonl", help="Output JSONL file (typically data/registry.jsonl)")
-    parser.add_argument("output_web", help="Output web JSON (typically web/registry.json)")
+    parser.add_argument("output_web", help="Output web JSON (typically registry.json)")
     parser.add_argument("--append", action="store_true", help="Append to output JSONL")
     parser.add_argument("--schema", help="Path to JSON schema for enum validation")
     args = parser.parse_args()

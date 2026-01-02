@@ -16,7 +16,7 @@ See `CONTRIBUTING.md` for how to add public resources.
 - A **Wikipedia dump seeder** (networked): `scripts/generate_wikipedia_entries.py`
 - A **Common Voice seeder** (networked): `scripts/generate_common_voice_entries.py`
 - A **Language Science Press grammar seeder** (networked): `scripts/generate_langsci_grammar_entries.py`
-- A single-file **search UI** you can open locally: `web/index.html` (loads `web/registry.json`)
+- A single-file **search UI** you can open locally: `index.html` (loads `registry.json`)
 
 ## Design choices (minimal, pragmatic)
 - **Glottocode is required** (primary language identifier).
@@ -26,7 +26,7 @@ See `CONTRIBUTING.md` for how to add public resources.
 
 ## Suggested workflow (GitHub-friendly)
 1. Contributors add/edit records in `data/registry.jsonl` via PR.
-2. Regenerate `web/registry.json` with `scripts/build_web_registry.py`.
+2. Regenerate `registry.json` with `scripts/build_web_registry.py`.
 3. CI runs `scripts/validate.py` to enforce schema + basic validity.
 4. CI runs `scripts/quality.py` for duplicate IDs, landing links, and date sanity.
 5. Periodic releases publish the static search page.

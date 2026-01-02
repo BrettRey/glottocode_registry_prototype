@@ -18,15 +18,14 @@ glottocode_registry_prototype/
 │   └── registry.jsonl          # Registry data (one JSON object per line)
 ├── scripts/
 │   └── validate.py             # Schema validator
-└── web/
-    ├── index.html              # Static search UI
-    └── registry.json           # Built from registry.jsonl for web
+├── index.html                  # Static search UI
+└── registry.json               # Built from registry.jsonl for web
 ```
 
 ## Key Design Choices
 
 - **Glottocode required** - primary language identifier (from Glottolog)
-- **Access is first-class** - open/restricted/controlled/closed
+- **Public-only for now** - access level must be open
 - **Links required** - at least a landing page
 - **Everything else optional** - cheap seeding
 
@@ -37,17 +36,17 @@ glottocode_registry_prototype/
 python scripts/validate.py
 
 # Run quality checks (extra rules)
-python scripts/quality.py data/registry.jsonl web/registry.json
+python scripts/quality.py data/registry.jsonl registry.json
 
 # Build web registry JSON
-python scripts/build_web_registry.py data/registry.jsonl web/registry.json
+python scripts/build_web_registry.py data/registry.jsonl registry.json
 
 # Import CSV/TSV into JSONL
 python scripts/import_registry.py path/to/input.csv data/registry.jsonl --append
 python scripts/import_registry.py path/to/input.csv data/registry.jsonl --validate-schema
 
 # Batch import pipeline
-python scripts/batch_import.py path/to/input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json
+python scripts/batch_import.py path/to/input.csv data/registry.jsonl registry.json --append --schema schema/resource.schema.json
 
 # Optional link check (networked)
 python scripts/link_check.py data/registry.jsonl --limit 25
@@ -59,14 +58,14 @@ python scripts/generate_common_voice_entries.py data/registry.jsonl --count 100 
 python scripts/generate_langsci_grammar_entries.py data/registry.jsonl --count 100 --append
 
 # Run local server for web UI
-python -m http.server 8000 --directory web
+python -m http.server 8000
 ```
 
 ## Workflow
 
 1. Add/edit records in `data/registry.jsonl`
 2. Run `scripts/validate.py` to check schema + validity
-3. Build `web/registry.json` for the search UI
+3. Build `registry.json` for the search UI
 
 ## Role: Developer
 

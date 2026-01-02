@@ -4,7 +4,7 @@ Data quality checks for registry entries beyond JSON Schema validation.
 Public-only policy is enforced here (access level must be open).
 
 Usage:
-  python scripts/quality.py data/registry.jsonl [web/registry.json]
+  python scripts/quality.py data/registry.jsonl [registry.json]
 """
 import json
 import sys
@@ -111,9 +111,9 @@ def main(registry_path: Path, web_path: Path | None = None) -> int:
             web_items = json.loads(web_path.read_text(encoding="utf-8"))
             jsonl_items = [item for _, item in entries]
             if web_items != jsonl_items:
-                errors.append("web/registry.json does not match data/registry.jsonl")
+                errors.append(f"{web_path} does not match data/registry.jsonl")
         except json.JSONDecodeError as exc:
-            errors.append(f"web registry JSON parse error: {exc}")
+            errors.append(f"registry JSON parse error: {exc}")
 
     if warnings:
         print("Warnings:")

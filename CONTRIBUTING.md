@@ -12,12 +12,12 @@ Thanks for helping grow the glottocode-first registry! This project accepts **pu
    - For batches, use the importer: `python scripts/import_registry.py input.csv data/registry.jsonl --append`
    - Schema enum validation: `python scripts/import_registry.py input.csv data/registry.jsonl --validate-schema`
    - Template CSV: `templates/registry_import_template.csv`
-3. Regenerate `web/registry.json`:
-   - `python scripts/build_web_registry.py data/registry.jsonl web/registry.json`
-   - Or run the pipeline: `python scripts/batch_import.py input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json`
+3. Regenerate `registry.json`:
+   - `python scripts/build_web_registry.py data/registry.jsonl registry.json`
+   - Or run the pipeline: `python scripts/batch_import.py input.csv data/registry.jsonl registry.json --append --schema schema/resource.schema.json`
 4. Validate and run quality checks:
    - `python scripts/validate.py data/registry.jsonl schema/resource.schema.json`
-   - `python scripts/quality.py data/registry.jsonl web/registry.json`
+   - `python scripts/quality.py data/registry.jsonl registry.json`
 
 ## Field Conventions
 - `resource_id`: lowercase with hyphens (e.g., `example-treebank`).

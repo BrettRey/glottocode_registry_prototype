@@ -27,4 +27,4 @@ jobs:
       - name: Validate registry
         run: python scripts/validate.py data/registry.jsonl schema/resource.schema.json
       - name: Run quality checks
-        run: python scripts/quality.py data/registry.jsonl web/registry.json
+        run: python scripts/quality.py data/registry.jsonl registry.json

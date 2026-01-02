@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Build web/registry.json from JSONL registry data.
+Build registry.json from JSONL registry data.
 
 Usage:
-  python scripts/build_web_registry.py data/registry.jsonl web/registry.json
-  python scripts/build_web_registry.py data/registry.jsonl web/registry.json --check
+  python scripts/build_web_registry.py data/registry.jsonl registry.json
+  python scripts/build_web_registry.py data/registry.jsonl registry.json --check
 """
 import json
 import sys
@@ -40,9 +40,9 @@ def main(registry_path: Path, output_path: Path, check: bool) -> int:
             print(f"Output JSON decode error: {exc}", file=sys.stderr)
             return 1
         if existing != items:
-            print("web registry is out of sync with JSONL", file=sys.stderr)
+            print("Output registry is out of sync with JSONL", file=sys.stderr)
             return 1
-        print("OK: web registry is in sync.")
+        print("OK: output registry is in sync.")
         return 0
 
     output_path.write_text(json.dumps(items, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
