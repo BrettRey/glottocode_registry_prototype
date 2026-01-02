@@ -16,6 +16,7 @@ Defaults:
 """
 import argparse
 import csv
+import difflib
 import json
 import re
 import sys
@@ -196,7 +197,11 @@ def parse_date(value: str, field: str, row_num: int) -> str:
     return value
 
 
-def parse_links(row: dict, row_num: int, errors: list[str], warnings: list[str]) -> list[dict]:
+def is_glottocode(value: str) -> bool:
+    return bool(re.fullmatch(r"[a-z]{4}[0-9]{4}", value))
+
+
+def parse_links(row: dict, row_num: int, row_errors: list[str], warnings: list[str]) -> list[dict]:
     links = []
 
     def add_link(kind: str, url: str):
@@ -207,7 +212,7 @@ def parse_links(row: dict, row_num: int, errors: list[str], warnings: list[str])
 
     landing = row.get("landing_url", "").strip()
     if not landing:
-        errors.append(f"[row {row_num}] missing landing_url")
+        row_errors.append(f"[row {row_num}] missing landing_url")
     else:
         add_link("landing", landing)
 
@@ -253,19 +258,28 @@ def build_entry(
     schema_enums: dict | None,
 ) -> dict | None:
     entry = {}
+    row_errors = []
 
     for field in REQUIRED_FIELDS:
         if not row.get(field, "").strip():
-            errors.append(f"[row {row_num}] missing required field: {field}")
+            row_errors.append(f"[row {row_num}] missing required field: {field}")
 
-    if errors:
+    if row_errors:
+        errors.extend(row_errors)
         return None
 
     entry["resource_id"] = row["resource_id"].strip()
     entry["glottocode"] = row["glottocode"].strip()
+    if not is_glottocode(entry["glottocode"]):
+        row_errors.append(f"[row {row_num}] invalid glottocode: {entry['glottocode']}")
 
     secondary = parse_list(row.get("glottocodes_secondary", ""))
     if secondary:
+        invalid_secondary = [code for code in secondary if not is_glottocode(code)]
+        if invalid_secondary:
+            row_errors.append(
+                f"[row {row_num}] invalid secondary glottocode(s): {', '.join(invalid_secondary)}"
+            )
         entry["glottocodes_secondary"] = secondary
 
     entry["title"] = row["title"].strip()
@@ -287,7 +301,7 @@ def build_entry(
 
     access_level = row.get("access_level", "").strip() or defaults["access_level"]
     if access_level and access_level != "open" and not defaults["allow_non_open"]:
-        errors.append(f"[row {row_num}] access_level must be open (got {access_level})")
+        row_errors.append(f"[row {row_num}] access_level must be open (got {access_level})")
     access = {"level": access_level or "open"}
     constraints = parse_list(row.get("access_constraints", ""))
     if constraints:
@@ -297,7 +311,7 @@ def build_entry(
         access["contact"] = contact
     entry["access"] = access
 
-    links = parse_links(row, row_num, errors, warnings)
+    links = parse_links(row, row_num, row_errors, warnings)
     if links:
         entry["links"] = links
 
@@ -326,21 +340,21 @@ def build_entry(
                     provenance_last_verified, "provenance.last_verified", row_num
                 )
             except ValueError as exc:
-                errors.append(str(exc))
+                row_errors.append(str(exc))
         entry["provenance"] = provenance
 
     created_value = row.get("created", "").strip() or defaults["created"]
     try:
         entry["created"] = parse_date(created_value, "created", row_num)
     except ValueError as exc:
-        errors.append(str(exc))
+        row_errors.append(str(exc))
 
     updated_value = row.get("updated", "").strip()
     if updated_value:
         try:
             entry["updated"] = parse_date(updated_value, "updated", row_num)
         except ValueError as exc:
-            errors.append(str(exc))
+            row_errors.append(str(exc))
 
     curation_status = row.get("curation_status", "").strip() or defaults["curation_status"]
     curation_maintainers = parse_list(row.get("curation_maintainers", "")) or defaults["curation_maintainers"]
@@ -357,9 +371,10 @@ def build_entry(
         entry["tags"] = tags
 
     if schema_enums:
-        validate_enums(entry, schema_enums, row_num, errors)
+        validate_enums(entry, schema_enums, row_num, row_errors)
 
-    if errors:
+    if row_errors:
+        errors.extend(row_errors)
         return None
     return entry
 
@@ -428,21 +443,49 @@ def main() -> int:
         print("Missing header row", file=sys.stderr)
         return 1
 
+    errors = []
+    header_warnings = []
+    warnings = []
+
     normalized_headers = {}
     unknown_headers = []
+    known_headers = set(CANONICAL_FIELDS) | set(ALIASES.keys()) | set(ALIASES.values())
     for header in reader.fieldnames:
         norm = normalize_header(header)
         canonical = ALIASES.get(norm, norm)
         if canonical in CANONICAL_FIELDS:
             normalized_headers[header] = canonical
         else:
-            unknown_headers.append(header)
+            unknown_headers.append((header, norm))
 
-    if unknown_headers:
-        print("Warning: unknown columns will be ignored:", ", ".join(unknown_headers), file=sys.stderr)
+    for raw_header, normalized in unknown_headers:
+        suggestions = difflib.get_close_matches(normalized, sorted(known_headers), n=1, cutoff=0.6)
+        if suggestions:
+            suggestion = ALIASES.get(suggestions[0], suggestions[0])
+            header_warnings.append(
+                f"[header] unknown column '{raw_header}' (did you mean '{suggestion}'?)"
+            )
+        else:
+            header_warnings.append(f"[header] unknown column '{raw_header}' will be ignored")
 
-    errors = []
-    warnings = []
+    present_fields = set(normalized_headers.values())
+    missing_required = sorted(REQUIRED_FIELDS - present_fields)
+    if missing_required:
+        errors.append(
+            f"Missing required column(s): {', '.join(missing_required)}"
+        )
+
+    if header_warnings:
+        print("Warnings:", file=sys.stderr)
+        for warning in header_warnings:
+            print(f"  - {warning}", file=sys.stderr)
+
+    if errors:
+        print("Errors:", file=sys.stderr)
+        for error in errors:
+            print(f"  - {error}", file=sys.stderr)
+        return 1
+
     entries = []
 
     for row_num, row in enumerate(reader, start=2):

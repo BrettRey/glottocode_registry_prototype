@@ -12,6 +12,7 @@ See `CONTRIBUTING.md` for how to add public resources.
 - A **CSV/TSV importer** for batch seeding: `scripts/import_registry.py`
 - A **batch import pipeline**: `scripts/batch_import.py`
 - A starter CSV template: `templates/registry_import_template.csv`
+- An **optional link checker** (scheduled in CI): `scripts/link_check.py`
 - A single-file **search UI** you can open locally: `web/index.html` (loads `web/registry.json`)
 
 ## Design choices (minimal, pragmatic)
