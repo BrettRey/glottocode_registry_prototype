@@ -9,6 +9,7 @@
 - `scripts/import_registry.py`: Import CSV/TSV into JSONL.
 - `scripts/batch_import.py`: One-shot import + build + validate + quality.
 - `scripts/generate_wikipedia_entries.py`: Seed Wikipedia dump entries (networked).
+- `scripts/generate_common_voice_entries.py`: Seed Common Voice entries (networked).
 - `scripts/link_check.py`: Optional HTTP reachability checks for links.
 - `web/index.html`: Static search UI.
 - `web/registry.json`: JSON array consumed by the UI; keep it in sync with `data/registry.jsonl`.
@@ -30,6 +31,8 @@
   - `python scripts/batch_import.py input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json`
 - Seed Wikipedia dumps (networked):
   - `python scripts/generate_wikipedia_entries.py data/registry.jsonl --count 100 --append`
+- Seed Common Voice (networked):
+  - `python scripts/generate_common_voice_entries.py data/registry.jsonl --count 100 --append`
 - Optional link check (networked):
   - `python scripts/link_check.py data/registry.jsonl --limit 25`
 - Serve the UI locally:

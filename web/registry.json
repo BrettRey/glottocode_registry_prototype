@@ -4503,5 +4503,4905 @@
       "wikipedia",
       "dump"
     ]
+  },
+  {
+    "resource_id": "common-voice-ca",
+    "glottocode": "stan1289",
+    "title": "Mozilla Common Voice Catalan",
+    "description": "Open speech corpus from Mozilla Common Voice for Catalan.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ca",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-en",
+    "glottocode": "stan1293",
+    "title": "Mozilla Common Voice English",
+    "description": "Open speech corpus from Mozilla Common Voice for English.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "en",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-rw",
+    "glottocode": "kiny1244",
+    "title": "Mozilla Common Voice Kinyarwanda",
+    "description": "Open speech corpus from Mozilla Common Voice for Kinyarwanda.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "rw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-be",
+    "glottocode": "bela1254",
+    "title": "Mozilla Common Voice Belarusian",
+    "description": "Open speech corpus from Mozilla Common Voice for Belarusian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "be",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-eo",
+    "glottocode": "espe1235",
+    "title": "Mozilla Common Voice Esperanto",
+    "description": "Open speech corpus from Mozilla Common Voice for Esperanto.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "eo",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-de",
+    "glottocode": "stan1295",
+    "title": "Mozilla Common Voice German",
+    "description": "Open speech corpus from Mozilla Common Voice for German.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "de",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-fr",
+    "glottocode": "stan1290",
+    "title": "Mozilla Common Voice French",
+    "description": "Open speech corpus from Mozilla Common Voice for French.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "fr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-es",
+    "glottocode": "stan1288",
+    "title": "Mozilla Common Voice Spanish",
+    "description": "Open speech corpus from Mozilla Common Voice for Spanish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "es",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-kab",
+    "glottocode": "kaby1243",
+    "title": "Mozilla Common Voice Kabyle",
+    "description": "Open speech corpus from Mozilla Common Voice for Kabyle.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "kab",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-eu",
+    "glottocode": "basq1248",
+    "title": "Mozilla Common Voice Basque",
+    "description": "Open speech corpus from Mozilla Common Voice for Basque.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "eu",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ug",
+    "glottocode": "uigh1240",
+    "title": "Mozilla Common Voice Uighur",
+    "description": "Open speech corpus from Mozilla Common Voice for Uighur.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ug",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-lg",
+    "glottocode": "gand1255",
+    "title": "Mozilla Common Voice Ganda",
+    "description": "Open speech corpus from Mozilla Common Voice for Ganda.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "lg",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-it",
+    "glottocode": "ital1282",
+    "title": "Mozilla Common Voice Italian",
+    "description": "Open speech corpus from Mozilla Common Voice for Italian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "it",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ja",
+    "glottocode": "nucl1643",
+    "title": "Mozilla Common Voice Japanese",
+    "description": "Open speech corpus from Mozilla Common Voice for Japanese.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ja",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mhr",
+    "glottocode": "east2328",
+    "title": "Mozilla Common Voice Eastern Mari",
+    "description": "Open speech corpus from Mozilla Common Voice for Eastern Mari.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mhr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-lv",
+    "glottocode": "latv1249",
+    "title": "Mozilla Common Voice Latvian",
+    "description": "Open speech corpus from Mozilla Common Voice for Latvian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "lv",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ba",
+    "glottocode": "bash1264",
+    "title": "Mozilla Common Voice Bashkir",
+    "description": "Open speech corpus from Mozilla Common Voice for Bashkir.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ba",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-gl",
+    "glottocode": "gali1258",
+    "title": "Mozilla Common Voice Galician",
+    "description": "Open speech corpus from Mozilla Common Voice for Galician.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "gl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ru",
+    "glottocode": "russ1263",
+    "title": "Mozilla Common Voice Russian",
+    "description": "Open speech corpus from Mozilla Common Voice for Russian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ru",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ta",
+    "glottocode": "tami1289",
+    "title": "Mozilla Common Voice Tamil",
+    "description": "Open speech corpus from Mozilla Common Voice for Tamil.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ta",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-yue",
+    "glottocode": "yuec1235",
+    "title": "Mozilla Common Voice Yue Chinese",
+    "description": "Open speech corpus from Mozilla Common Voice for Yue Chinese.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "yue",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-pt",
+    "glottocode": "port1283",
+    "title": "Mozilla Common Voice Portuguese",
+    "description": "Open speech corpus from Mozilla Common Voice for Portuguese.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "pt",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-kbd",
+    "glottocode": "kaba1278",
+    "title": "Mozilla Common Voice Kabardian",
+    "description": "Open speech corpus from Mozilla Common Voice for Kabardian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "kbd",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-pl",
+    "glottocode": "poli1260",
+    "title": "Mozilla Common Voice Polish",
+    "description": "Open speech corpus from Mozilla Common Voice for Polish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "pl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-th",
+    "glottocode": "thai1261",
+    "title": "Mozilla Common Voice Thai",
+    "description": "Open speech corpus from Mozilla Common Voice for Thai.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "th",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ka",
+    "glottocode": "nucl1302",
+    "title": "Mozilla Common Voice Georgian",
+    "description": "Open speech corpus from Mozilla Common Voice for Georgian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ka",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ckb",
+    "glottocode": "cent1972",
+    "title": "Mozilla Common Voice Central Kurdish",
+    "description": "Open speech corpus from Mozilla Common Voice for Central Kurdish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ckb",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-tr",
+    "glottocode": "nucl1301",
+    "title": "Mozilla Common Voice Turkish",
+    "description": "Open speech corpus from Mozilla Common Voice for Turkish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "tr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-nl",
+    "glottocode": "dutc1256",
+    "title": "Mozilla Common Voice Dutch",
+    "description": "Open speech corpus from Mozilla Common Voice for Dutch.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "nl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-cy",
+    "glottocode": "wels1247",
+    "title": "Mozilla Common Voice Welsh",
+    "description": "Open speech corpus from Mozilla Common Voice for Welsh.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "cy",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-hu",
+    "glottocode": "hung1274",
+    "title": "Mozilla Common Voice Hungarian",
+    "description": "Open speech corpus from Mozilla Common Voice for Hungarian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "hu",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-uk",
+    "glottocode": "ukra1253",
+    "title": "Mozilla Common Voice Ukrainian",
+    "description": "Open speech corpus from Mozilla Common Voice for Ukrainian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "uk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ur",
+    "glottocode": "urdu1245",
+    "title": "Mozilla Common Voice Urdu",
+    "description": "Open speech corpus from Mozilla Common Voice for Urdu.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ur",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-cs",
+    "glottocode": "czec1258",
+    "title": "Mozilla Common Voice Czech",
+    "description": "Open speech corpus from Mozilla Common Voice for Czech.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "cs",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-kmr",
+    "glottocode": "nort2641",
+    "title": "Mozilla Common Voice Northern Kurdish",
+    "description": "Open speech corpus from Mozilla Common Voice for Northern Kurdish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "kmr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-fy-nl",
+    "glottocode": "west2354",
+    "title": "Mozilla Common Voice Western Frisian",
+    "description": "Open speech corpus from Mozilla Common Voice for Western Frisian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "fy-NL",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ab",
+    "glottocode": "abkh1244",
+    "title": "Mozilla Common Voice Abkhaz",
+    "description": "Open speech corpus from Mozilla Common Voice for Abkhaz.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ab",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ady",
+    "glottocode": "adyg1241",
+    "title": "Mozilla Common Voice West Circassian",
+    "description": "Open speech corpus from Mozilla Common Voice for West Circassian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ady",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bn",
+    "glottocode": "beng1280",
+    "title": "Mozilla Common Voice Bengali",
+    "description": "Open speech corpus from Mozilla Common Voice for Bengali.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bn",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-sk",
+    "glottocode": "slov1269",
+    "title": "Mozilla Common Voice Slovak",
+    "description": "Open speech corpus from Mozilla Common Voice for Slovak.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "sk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-sv-se",
+    "glottocode": "swed1254",
+    "title": "Mozilla Common Voice Swedish",
+    "description": "Open speech corpus from Mozilla Common Voice for Swedish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "sv-SE",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ky",
+    "glottocode": "kirg1245",
+    "title": "Mozilla Common Voice Kirghiz",
+    "description": "Open speech corpus from Mozilla Common Voice for Kirghiz.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ky",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-dv",
+    "glottocode": "dhiv1236",
+    "title": "Mozilla Common Voice Dhivehi",
+    "description": "Open speech corpus from Mozilla Common Voice for Dhivehi.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "dv",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mrj",
+    "glottocode": "west2392",
+    "title": "Mozilla Common Voice Western Mari",
+    "description": "Open speech corpus from Mozilla Common Voice for Western Mari.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mrj",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-id",
+    "glottocode": "indo1316",
+    "title": "Mozilla Common Voice Standard Indonesian",
+    "description": "Open speech corpus from Mozilla Common Voice for Standard Indonesian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "id",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-tt",
+    "glottocode": "tata1255",
+    "title": "Mozilla Common Voice Tatar",
+    "description": "Open speech corpus from Mozilla Common Voice for Tatar.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "tt",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-hy-am",
+    "glottocode": "nucl1235",
+    "title": "Mozilla Common Voice Eastern Armenian",
+    "description": "Open speech corpus from Mozilla Common Voice for Eastern Armenian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "hy-AM",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-br",
+    "glottocode": "bret1244",
+    "title": "Mozilla Common Voice Breton",
+    "description": "Open speech corpus from Mozilla Common Voice for Breton.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "br",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-luo",
+    "glottocode": "luok1236",
+    "title": "Mozilla Common Voice Luo (Kenya and Tanzania)",
+    "description": "Open speech corpus from Mozilla Common Voice for Luo (Kenya and Tanzania).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "luo",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-lt",
+    "glottocode": "lith1251",
+    "title": "Mozilla Common Voice Lithuanian",
+    "description": "Open speech corpus from Mozilla Common Voice for Lithuanian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "lt",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-cv",
+    "glottocode": "chuv1255",
+    "title": "Mozilla Common Voice Chuvash",
+    "description": "Open speech corpus from Mozilla Common Voice for Chuvash.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "cv",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mk",
+    "glottocode": "mace1250",
+    "title": "Mozilla Common Voice Macedonian",
+    "description": "Open speech corpus from Mozilla Common Voice for Macedonian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mvy",
+    "glottocode": "indu1241",
+    "title": "Mozilla Common Voice Indus Kohistani",
+    "description": "Open speech corpus from Mozilla Common Voice for Indus Kohistani.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mvy",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-nnh",
+    "glottocode": "ngie1241",
+    "title": "Mozilla Common Voice Ngiemboon",
+    "description": "Open speech corpus from Mozilla Common Voice for Ngiemboon.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "nnh",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ro",
+    "glottocode": "roma1327",
+    "title": "Mozilla Common Voice Romanian",
+    "description": "Open speech corpus from Mozilla Common Voice for Romanian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ro",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-nan-tw",
+    "glottocode": "minn1241",
+    "title": "Mozilla Common Voice Min Nan Chinese",
+    "description": "Open speech corpus from Mozilla Common Voice for Min Nan Chinese.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "nan-tw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-phl",
+    "glottocode": "phal1254",
+    "title": "Mozilla Common Voice Palula",
+    "description": "Open speech corpus from Mozilla Common Voice for Palula.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "phl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-el",
+    "glottocode": "mode1248",
+    "title": "Mozilla Common Voice Modern Greek",
+    "description": "Open speech corpus from Mozilla Common Voice for Modern Greek.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "el",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ksf",
+    "glottocode": "bafi1243",
+    "title": "Mozilla Common Voice Bafia",
+    "description": "Open speech corpus from Mozilla Common Voice for Bafia.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ksf",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mr",
+    "glottocode": "mara1378",
+    "title": "Mozilla Common Voice Marathi",
+    "description": "Open speech corpus from Mozilla Common Voice for Marathi.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ewo",
+    "glottocode": "ewon1239",
+    "title": "Mozilla Common Voice Ewondo",
+    "description": "Open speech corpus from Mozilla Common Voice for Ewondo.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ewo",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-oru",
+    "glottocode": "ormu1247",
+    "title": "Mozilla Common Voice Ormuri",
+    "description": "Open speech corpus from Mozilla Common Voice for Ormuri.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "oru",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-sl",
+    "glottocode": "slov1268",
+    "title": "Mozilla Common Voice Slovenian",
+    "description": "Open speech corpus from Mozilla Common Voice for Slovenian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "sl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-khw",
+    "glottocode": "khow1242",
+    "title": "Mozilla Common Voice Khowar",
+    "description": "Open speech corpus from Mozilla Common Voice for Khowar.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "khw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bft",
+    "glottocode": "balt1258",
+    "title": "Mozilla Common Voice Balti",
+    "description": "Open speech corpus from Mozilla Common Voice for Balti.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bft",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bg",
+    "glottocode": "bulg1262",
+    "title": "Mozilla Common Voice Bulgarian",
+    "description": "Open speech corpus from Mozilla Common Voice for Bulgarian.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bg",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-an",
+    "glottocode": "arag1245",
+    "title": "Mozilla Common Voice Aragonese",
+    "description": "Open speech corpus from Mozilla Common Voice for Aragonese.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "an",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-trw",
+    "glottocode": "torw1241",
+    "title": "Mozilla Common Voice Torwali",
+    "description": "Open speech corpus from Mozilla Common Voice for Torwali.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "trw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-sah",
+    "glottocode": "yaku1245",
+    "title": "Mozilla Common Voice Sakha",
+    "description": "Open speech corpus from Mozilla Common Voice for Sakha.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "sah",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bnm",
+    "glottocode": "bata1285",
+    "title": "Mozilla Common Voice Batanga",
+    "description": "Open speech corpus from Mozilla Common Voice for Batanga.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bnm",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-sva",
+    "glottocode": "svan1243",
+    "title": "Mozilla Common Voice Svan",
+    "description": "Open speech corpus from Mozilla Common Voice for Svan.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "sva",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-fi",
+    "glottocode": "finn1318",
+    "title": "Mozilla Common Voice Finnish",
+    "description": "Open speech corpus from Mozilla Common Voice for Finnish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "fi",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-tok",
+    "glottocode": "toki1239",
+    "title": "Mozilla Common Voice Toki Pona",
+    "description": "Open speech corpus from Mozilla Common Voice for Toki Pona.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "tok",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-hi",
+    "glottocode": "hind1269",
+    "title": "Mozilla Common Voice Hindi",
+    "description": "Open speech corpus from Mozilla Common Voice for Hindi.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "hi",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-pwn",
+    "glottocode": "paiw1248",
+    "title": "Mozilla Common Voice Paiwan",
+    "description": "Open speech corpus from Mozilla Common Voice for Paiwan.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "pwn",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-phr",
+    "glottocode": "paha1251",
+    "title": "Mozilla Common Voice Pahari Potwari",
+    "description": "Open speech corpus from Mozilla Common Voice for Pahari Potwari.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "phr",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ia",
+    "glottocode": "inte1239",
+    "title": "Mozilla Common Voice Interlingua (International Auxiliary Language Association)",
+    "description": "Open speech corpus from Mozilla Common Voice for Interlingua (International Auxiliary Language Association).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ia",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ga-ie",
+    "glottocode": "iris1253",
+    "title": "Mozilla Common Voice Irish",
+    "description": "Open speech corpus from Mozilla Common Voice for Irish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ga-IE",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-mxu",
+    "glottocode": "mada1293",
+    "title": "Mozilla Common Voice Mada (Cameroon)",
+    "description": "Open speech corpus from Mozilla Common Voice for Mada (Cameroon).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "mxu",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-szy",
+    "glottocode": "saki1247",
+    "title": "Mozilla Common Voice Sakizaya",
+    "description": "Open speech corpus from Mozilla Common Voice for Sakizaya.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "szy",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-dua",
+    "glottocode": "dual1243",
+    "title": "Mozilla Common Voice Duala",
+    "description": "Open speech corpus from Mozilla Common Voice for Duala.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "dua",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-byv",
+    "glottocode": "medu1238",
+    "title": "Mozilla Common Voice Medumba",
+    "description": "Open speech corpus from Mozilla Common Voice for Medumba.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "byv",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-fub",
+    "glottocode": "adam1253",
+    "title": "Mozilla Common Voice Adamawa Fulfulde",
+    "description": "Open speech corpus from Mozilla Common Voice for Adamawa Fulfulde.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "fub",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-pcm",
+    "glottocode": "nige1257",
+    "title": "Mozilla Common Voice Nigerian Pidgin",
+    "description": "Open speech corpus from Mozilla Common Voice for Nigerian Pidgin.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "pcm",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bgp",
+    "glottocode": "east2304",
+    "title": "Mozilla Common Voice Eastern Balochi",
+    "description": "Open speech corpus from Mozilla Common Voice for Eastern Balochi.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bgp",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-da",
+    "glottocode": "dani1285",
+    "title": "Mozilla Common Voice Danish",
+    "description": "Open speech corpus from Mozilla Common Voice for Danish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "da",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-ajg",
+    "glottocode": "ajab1235",
+    "title": "Mozilla Common Voice Aja (Benin)",
+    "description": "Open speech corpus from Mozilla Common Voice for Aja (Benin).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "ajg",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-plk",
+    "glottocode": "kohi1248",
+    "title": "Mozilla Common Voice Kohistani Shina",
+    "description": "Open speech corpus from Mozilla Common Voice for Kohistani Shina.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "plk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bbj",
+    "glottocode": "ghom1247",
+    "title": "Mozilla Common Voice Ghom\u00e1l\u00e1'",
+    "description": "Open speech corpus from Mozilla Common Voice for Ghom\u00e1l\u00e1'.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bbj",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-kw",
+    "glottocode": "corn1251",
+    "title": "Mozilla Common Voice Cornish",
+    "description": "Open speech corpus from Mozilla Common Voice for Cornish.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "kw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-gwt",
+    "glottocode": "gawa1247",
+    "title": "Mozilla Common Voice Gawar-Bati",
+    "description": "Open speech corpus from Mozilla Common Voice for Gawar-Bati.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "gwt",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bas",
+    "glottocode": "basa1284",
+    "title": "Mozilla Common Voice Basa (Cameroon)",
+    "description": "Open speech corpus from Mozilla Common Voice for Basa (Cameroon).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bas",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bkm",
+    "glottocode": "komc1235",
+    "title": "Mozilla Common Voice Kom (Cameroon)",
+    "description": "Open speech corpus from Mozilla Common Voice for Kom (Cameroon).",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bkm",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-wbl",
+    "glottocode": "wakh1245",
+    "title": "Mozilla Common Voice Wakhi",
+    "description": "Open speech corpus from Mozilla Common Voice for Wakhi.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "wbl",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-cjk",
+    "glottocode": "chok1245",
+    "title": "Mozilla Common Voice Chokwe",
+    "description": "Open speech corpus from Mozilla Common Voice for Chokwe.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "cjk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-gwc",
+    "glottocode": "kala1373",
+    "title": "Mozilla Common Voice Gawri",
+    "description": "Open speech corpus from Mozilla Common Voice for Gawri.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "gwc",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-qup",
+    "glottocode": "sout2990",
+    "title": "Mozilla Common Voice Southern Pastaza Quechua",
+    "description": "Open speech corpus from Mozilla Common Voice for Southern Pastaza Quechua.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "qup",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-qxw",
+    "glottocode": "jauj1238",
+    "title": "Mozilla Common Voice Jauja Wanca Quechua",
+    "description": "Open speech corpus from Mozilla Common Voice for Jauja Wanca Quechua.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "qxw",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-bci",
+    "glottocode": "baou1238",
+    "title": "Mozilla Common Voice Baoul\u00e9",
+    "description": "Open speech corpus from Mozilla Common Voice for Baoul\u00e9.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "bci",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
+  },
+  {
+    "resource_id": "common-voice-tay",
+    "glottocode": "atay1247",
+    "title": "Mozilla Common Voice Atayal",
+    "description": "Open speech corpus from Mozilla Common Voice for Atayal.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "domain": [
+      "phonetics"
+    ],
+    "formats": [
+      "mp3",
+      "tsv"
+    ],
+    "annotation_layers": [
+      "orthographic transcription"
+    ],
+    "license": "CC0-1.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://commonvoice.mozilla.org/en/datasets"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "mozilla-common-voice",
+      "source_record": "tay",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Common Voice dataset metadata."
+    },
+    "tags": [
+      "common-voice",
+      "speech"
+    ]
   }
 ]

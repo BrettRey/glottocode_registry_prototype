@@ -52,6 +52,9 @@ python scripts/batch_import.py path/to/input.csv data/registry.jsonl web/registr
 # Optional link check (networked)
 python scripts/link_check.py data/registry.jsonl --limit 25
 
+# Seed Common Voice entries (networked)
+python scripts/generate_common_voice_entries.py data/registry.jsonl --count 100 --append
+
 # Run local server for web UI
 python -m http.server 8000 --directory web
 ```
