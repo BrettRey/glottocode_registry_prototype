@@ -11238,5 +11238,103 @@
       "grammar",
       "historical"
     ]
+  },
+  {
+    "resource_id": "shilluk-pear-story-2018-2020",
+    "glottocode": "shil1265",
+    "title": "PeterMojwokYor_PearStory",
+    "description": "Shilluk retelling of the Pear Story, recorded as spontaneous narrative after viewing the Pear Story film.",
+    "resource_type": "corpus",
+    "modality": [
+      "audio"
+    ],
+    "domain": [
+      "discourse"
+    ],
+    "formats": [
+      "wav"
+    ],
+    "license": "LicenseRef-Edinburgh-DataShare-EUL",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.research.ed.ac.uk/en/datasets/petermojwokyorpearstory/"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.7488/ds/3429"
+      }
+    ],
+    "citation": {
+      "preferred": "Remijsen, Bert; Gwado Ayoker, Otto. (2022). PeterMojwokYor_PearStory, 2018-2020 [sound]. University of Edinburgh. https://doi.org/10.7488/ds/3429."
+    },
+    "provenance": {
+      "source_catalog": "Edinburgh Research Explorer",
+      "source_record": "petermojwokyorpearstory",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2022-04-04",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "narrative",
+      "pear-story",
+      "datashare"
+    ]
+  },
+  {
+    "resource_id": "shilluk-descriptive-grammar-ldc-sp14",
+    "glottocode": "shil1265",
+    "title": "A Descriptive Grammar of Shilluk (Language Documentation & Conservation SP14)",
+    "description": "Open-access edited volume on Shilluk grammar (Language Documentation & Conservation Special Publication 14).",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "html",
+      "pdf"
+    ],
+    "license": "LicenseRef-LDC-OpenAccess",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://nflrc.hawaii.edu/ldc/sp14-a-descriptive-grammar-of-shilluk/"
+      }
+    ],
+    "citation": {
+      "preferred": "Remijsen, Bert & Ayoker, Otto Gwado (eds.). (2018). A Descriptive Grammar of Shilluk. Language Documentation & Conservation, Special Publication 14."
+    },
+    "provenance": {
+      "source_catalog": "Language Documentation & Conservation",
+      "source_record": "sp14-a-descriptive-grammar-of-shilluk",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2018-10-03",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "grammar",
+      "ldc"
+    ]
   }
 ]
