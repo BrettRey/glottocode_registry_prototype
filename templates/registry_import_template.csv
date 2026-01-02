@@ -1,0 +1,2 @@
+resource_id,glottocode,title,resource_type,license,landing_url,description,modality,domain,formats,annotation_layers,tags,created,curation_status,curation_maintainers
+example-treebank,abcd1234,Example Treebank,treebank,CC-BY-4.0,https://example.org/treebank,Short description,text,syntax;morphology,conllu,tokenization;dependency relations,seed,2026-01-01,seed,@you

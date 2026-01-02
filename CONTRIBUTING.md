@@ -9,6 +9,8 @@ Thanks for helping grow the glottocode-first registry! This project accepts **pu
 ## How to Add a Resource
 1. Add a JSON object (one per line) to `data/registry.jsonl`.
 2. Keep keys in the same order as `schema/resource.schema.json` for readability.
+   - For batches, use the importer: `python scripts/import_registry.py input.csv data/registry.jsonl --append`
+   - Template CSV: `templates/registry_import_template.csv`
 3. Regenerate `web/registry.json`:
    - `python scripts/build_web_registry.py data/registry.jsonl web/registry.json`
 4. Validate and run quality checks:

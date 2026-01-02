@@ -6,6 +6,7 @@
 - `scripts/validate.py`: JSON Schema validator for registry entries.
 - `scripts/quality.py`: Data quality checks beyond schema validation.
 - `scripts/build_web_registry.py`: Build `web/registry.json` from JSONL.
+- `scripts/import_registry.py`: Import CSV/TSV into JSONL.
 - `scripts/link_check.py`: Optional HTTP reachability checks for links.
 - `web/index.html`: Static search UI.
 - `web/registry.json`: JSON array consumed by the UI; keep it in sync with `data/registry.jsonl`.
@@ -20,6 +21,8 @@
   - Checks duplicates, landing links, date ordering, and web registry sync.
 - Build the web registry:
   - `python scripts/build_web_registry.py data/registry.jsonl web/registry.json`
+- Import from CSV/TSV:
+  - `python scripts/import_registry.py path/to/input.csv data/registry.jsonl --append`
 - Optional link check (networked):
   - `python scripts/link_check.py data/registry.jsonl --limit 25`
 - Serve the UI locally:

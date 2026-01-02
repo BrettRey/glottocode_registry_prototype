@@ -9,6 +9,8 @@ See `CONTRIBUTING.md` for how to add public resources.
 - A tiny **validator**: `scripts/validate.py`
 - A **quality checker** for extra rules: `scripts/quality.py`
 - A **builder** for the web registry: `scripts/build_web_registry.py`
+- A **CSV/TSV importer** for batch seeding: `scripts/import_registry.py`
+- A starter CSV template: `templates/registry_import_template.csv`
 - A single-file **search UI** you can open locally: `web/index.html` (loads `web/registry.json`)
 
 ## Design choices (minimal, pragmatic)

@@ -42,6 +42,9 @@ python scripts/quality.py data/registry.jsonl web/registry.json
 # Build web registry JSON
 python scripts/build_web_registry.py data/registry.jsonl web/registry.json
 
+# Import CSV/TSV into JSONL
+python scripts/import_registry.py path/to/input.csv data/registry.jsonl --append
+
 # Optional link check (networked)
 python scripts/link_check.py data/registry.jsonl --limit 25
 
