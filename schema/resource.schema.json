@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/glotto-registry/resource.schema.json",
+  "title": "Glottocode-first linguistic resource registry entry",
+  "type": "object",
+  "required": [
+    "resource_id",
+    "glottocode",
+    "title",
+    "resource_type",
+    "access",
+    "links",
+    "created",
+    "curation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "resource_id": {
+      "type": "string",
+      "description": "Stable registry identifier (slug).",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,62}$"
+    },
+    "glottocode": {
+      "type": "string",
+      "description": "Primary Glottolog language identifier (or macro-area variety entry).",
+      "pattern": "^[a-z]{4}[0-9]{4}$"
+    },
+    "glottocodes_secondary": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{4}[0-9]{4}$"
+      },
+      "description": "Additional Glottocodes covered by the resource."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "description": {
+      "type": "string"
+    },
+    "resource_type": {
+      "type": "string",
+      "enum": [
+        "corpus",
+        "lexicon",
+        "grammar",
+        "treebank",
+        "typological_dataset",
+        "elicitation_materials",
+        "experiment_stimuli",
+        "tool",
+        "bibliography",
+        "other"
+      ]
+    },
+    "modality": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "text",
+          "audio",
+          "video",
+          "multimodal",
+          "sign",
+          "gesture",
+          "other"
+        ]
+      },
+      "default": [
+        "text"
+      ]
+    },
+    "domain": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "phonetics",
+          "phonology",
+          "morphology",
+          "syntax",
+          "semantics",
+          "pragmatics",
+          "discourse",
+          "sociolinguistics",
+          "acquisition",
+          "historical",
+          "computational",
+          "typology",
+          "documentation",
+          "other"
+        ]
+      }
+    },
+    "formats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "File/data formats present (e.g., ELAN .eaf, TextGrid, CoNLL-U, CSV, JSONL, TEI XML)."
+    },
+    "annotation_layers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Annotation layers present (free text; prefer controlled vocab later)."
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX identifier where possible, otherwise a short label."
+    },
+    "access": {
+      "type": "object",
+      "required": [
+        "level"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "open",
+            "restricted",
+            "controlled",
+            "closed"
+          ]
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "contact": {
+          "type": "string",
+          "description": "How to request access (email/landing page)."
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "landing",
+              "download",
+              "api",
+              "paper",
+              "code",
+              "doi",
+              "other"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preferred": {
+          "type": "string"
+        },
+        "bibtex": {
+          "type": "string"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_catalog": {
+          "type": "string",
+          "description": "If derived from an existing catalog, name it."
+        },
+        "source_record": {
+          "type": "string",
+          "description": "Pointer/id in the source catalog."
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "curation": {
+      "type": "object",
+      "required": [
+        "status",
+        "maintainers"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "seed",
+            "curated",
+            "needs_review",
+            "deprecated"
+          ]
+        },
+        "maintainers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
