@@ -5,6 +5,8 @@
 - `data/registry.jsonl`: Registry data; one JSON object per line.
 - `scripts/validate.py`: JSON Schema validator for registry entries.
 - `scripts/quality.py`: Data quality checks beyond schema validation.
+- `scripts/build_web_registry.py`: Build `web/registry.json` from JSONL.
+- `scripts/link_check.py`: Optional HTTP reachability checks for links.
 - `web/index.html`: Static search UI.
 - `web/registry.json`: JSON array consumed by the UI; keep it in sync with `data/registry.jsonl`.
 - `README.md`, `STATUS.md`, `CLAUDE.md`: Project context and workflow notes.
@@ -16,6 +18,10 @@
 - Run quality checks:
   - `python scripts/quality.py data/registry.jsonl web/registry.json`
   - Checks duplicates, landing links, date ordering, and web registry sync.
+- Build the web registry:
+  - `python scripts/build_web_registry.py data/registry.jsonl web/registry.json`
+- Optional link check (networked):
+  - `python scripts/link_check.py data/registry.jsonl --limit 25`
 - Serve the UI locally:
   - `python -m http.server 8000 --directory web`
   - Then open `http://localhost:8000` in a browser.
@@ -26,6 +32,7 @@
 - JSON Schema: 2-space indentation; do not add fields outside the schema (`additionalProperties: false`).
 - JSONL entries: one line per record; keep keys in schema order for readability.
 - Field naming: `resource_id` is lowercase with hyphens (e.g., `example-treebank`); `glottocode` is 4 letters + 4 digits.
+- Access: only `open` resources are accepted for now.
 
 ## Testing Guidelines
 - No unit test framework is currently configured.

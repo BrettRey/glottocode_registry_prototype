@@ -39,6 +39,12 @@ python scripts/validate.py
 # Run quality checks (extra rules)
 python scripts/quality.py data/registry.jsonl web/registry.json
 
+# Build web registry JSON
+python scripts/build_web_registry.py data/registry.jsonl web/registry.json
+
+# Optional link check (networked)
+python scripts/link_check.py data/registry.jsonl --limit 25
+
 # Run local server for web UI
 python -m http.server 8000 --directory web
 ```

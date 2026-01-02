@@ -1,0 +1,117 @@
+name: Suggest a resource
+description: Propose a public linguistics resource to add to the registry.
+title: "Add resource: <short name>"
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please propose **publicly accessible** resources only. We store pointers (links, metadata), not the data itself.
+  - type: input
+    id: resource_id
+    attributes:
+      label: Proposed resource_id
+      description: "Lowercase slug with hyphens (e.g., example-treebank)"
+      placeholder: example-treebank
+    validations:
+      required: true
+  - type: input
+    id: glottocode
+    attributes:
+      label: Glottocode
+      description: "Primary Glottolog identifier (abcd1234)"
+      placeholder: abcd1234
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource type
+      options:
+        - corpus
+        - lexicon
+        - grammar
+        - treebank
+        - typological_dataset
+        - elicitation_materials
+        - experiment_stimuli
+        - tool
+        - bibliography
+        - other
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: "Example Treebank"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      placeholder: "What does it contain?"
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License (SPDX preferred)
+      placeholder: CC-BY-4.0
+    validations:
+      required: true
+  - type: dropdown
+    id: access_level
+    attributes:
+      label: Access level
+      options:
+        - open
+    validations:
+      required: true
+  - type: input
+    id: landing
+    attributes:
+      label: Landing page URL
+      placeholder: https://example.org/resource
+    validations:
+      required: true
+  - type: input
+    id: other_links
+    attributes:
+      label: Other links (optional)
+      description: "Comma-separated: download, api, code, doi, paper"
+  - type: input
+    id: formats
+    attributes:
+      label: Formats (comma-separated)
+      description: "Example: conllu, csv, jsonl"
+  - type: input
+    id: modality
+    attributes:
+      label: Modality (comma-separated)
+      description: "Example: text, audio"
+  - type: input
+    id: domain
+    attributes:
+      label: Domain (comma-separated)
+      description: "Example: syntax, morphology"
+  - type: input
+    id: annotation_layers
+    attributes:
+      label: Annotation layers (comma-separated)
+      description: "Example: tokenization, glosses"
+  - type: textarea
+    id: citation
+    attributes:
+      label: Preferred citation
+      placeholder: "Doe, J. (2024). ..."
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The resource is publicly accessible.
+          required: true
+        - label: The license is explicitly stated.
+          required: true

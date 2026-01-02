@@ -63,7 +63,7 @@
     "resource_id": "example-treebank",
     "glottocode": "wxyz9876",
     "title": "Example Treebank (placeholder entry)",
-    "description": "Placeholder treebank entry; demonstrates controlled access fields.",
+    "description": "Placeholder treebank entry; demonstrates open access fields.",
     "resource_type": "treebank",
     "modality": [
       "text"
@@ -82,14 +82,10 @@
       "morphological features",
       "dependency relations"
     ],
-    "license": "LicenseRef-Research-Only",
+    "license": "CC-BY-4.0",
     "access": {
-      "level": "restricted",
-      "constraints": [
-        "research-only",
-        "no redistribution"
-      ],
-      "contact": "access@example.org"
+      "level": "open",
+      "constraints": []
     },
     "links": [
       {
