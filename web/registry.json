@@ -9403,5 +9403,1433 @@
       "common-voice",
       "speech"
     ]
+  },
+  {
+    "resource_id": "langsci-grammar-351",
+    "glottocode": "fwee1238",
+    "title": "A grammar of Fwe",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/351"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.6669944"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Gunnink, Hilde. 2022. A grammar of Fwe. (African Language Grammars and Dictionaries 6). Berlin: Language Science Press. DOI: 10.5281/zenodo.6669944 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Gunnink2022,<br>author = {Gunnink, Hilde},<br>title = {A grammar of {Fwe}},<br>year = {2022},<br>series = {African Language Grammars and Dictionaries},<br>number = {6},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.6669944}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "351",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-549",
+    "glottocode": "japh1234",
+    "title": "A grammar of Japhug : Second edition",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/549"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.16811879"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Jacques, Guillaume. 2025. A grammar of Japhug : Second edition. (Comprehensive Grammar Library 1). Berlin: Language Science Press. DOI: 10.5281/zenodo.16811879 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Jacques2025,<br>author = {Jacques, Guillaume},<br>title = {A grammar of {Japhug}},<br>subtitle = {{Second} edition},<br>year = {2025},<br>series = {Comprehensive Grammar Library},<br>number = {1},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.16811879}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "549",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-443",
+    "glottocode": "kaga1256",
+    "title": "A grammar of Kagayanen",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/443"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.12755278"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Pebley, Carol J. & Payne, Thomas E.. 2024. A grammar of Kagayanen. (Comprehensive Grammar Library 8). Berlin: Language Science Press. DOI: 10.5281/zenodo.12755278 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Pebley2024,<br>author = {Pebley, Carol J. and Payne, Thomas E.},<br>title = {A grammar of {Kagayanen}},<br>year = {2024},<br>series = {Comprehensive Grammar Library},<br>number = {8},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.12755278}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "443",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-344",
+    "glottocode": "kara1499",
+    "title": "A grammar of Kalamang",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/344"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.6499927"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Visser, Eline. 2022. A grammar of Kalamang. (Comprehensive Grammar Library 4). Berlin: Language Science Press. DOI: 10.5281/zenodo.6499927 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Visser2022,<br>author = {Visser, Eline},<br>title = {A grammar of {Kalamang}},<br>year = {2022},<br>series = {Comprehensive Grammar Library},<br>number = {4},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.6499927}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "344",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-446",
+    "glottocode": "mand1446",
+    "title": "A grammar of Mandan",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/446"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.14227513"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Kasak, Ryan. 2024. A grammar of Mandan. (Comprehensive Grammar Library 10). Berlin: Language Science Press. DOI: 10.5281/zenodo.14227513 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Kasak2024,<br>author = {Kasak, Ryan},<br>title = {A grammar of {Mandan}},<br>year = {2024},<br>series = {Comprehensive Grammar Library},<br>number = {10},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.14227513}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "446",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-67",
+    "glottocode": "mauw1238",
+    "title": "A grammar of Mauwake",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/67"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.17169/langsci.b67.96"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Bergh\u00e4ll, Liisa. 2015. A grammar of Mauwake. (Studies in Diversity Linguistics 4). Berlin: Language Science Press. DOI: 10.17169/langsci.b67.96 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Bergh\u00e4ll2015,<br>author = {Bergh\u00e4ll, Liisa},<br>title = {A grammar of {Mauwake}},<br>year = {2015},<br>series = {Studies in Diversity Linguistics},<br>number = {4},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.17169/langsci.b67.96}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "67",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-118",
+    "glottocode": "molo1266",
+    "title": "A grammar of Moloko",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/118"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.824016"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Friesen, Dianne. 2017. A grammar of Moloko. (African Language Grammars and Dictionaries 3). Berlin: Language Science Press. DOI: 10.5281/zenodo.824016 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Friesen2017,<br>author = {Friesen, Dianne},<br>title = {A grammar of {Moloko}},<br>year = {2017},<br>series = {African Language Grammars and Dictionaries},<br>number = {3},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.824016}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "118",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-82",
+    "glottocode": "phal1254",
+    "title": "A grammar of Palula",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/82"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.17169/langsci.b82.85"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Liljegren, Henrik. 2016. A grammar of Palula. (Studies in Diversity Linguistics 8). Berlin: Language Science Press. DOI: 10.17169/langsci.b82.85 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Liljegren2016,<br>author = {Liljegren, Henrik},<br>title = {A grammar of {Palula}},<br>year = {2016},<br>series = {Studies in Diversity Linguistics},<br>number = {8},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.17169/langsci.b82.85}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "82",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-78",
+    "glottocode": "papu1250",
+    "title": "A grammar of Papuan Malay",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/78"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.376415"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Kluge, Angela. 2017. A grammar of Papuan Malay. (Studies in Diversity Linguistics 11). Berlin: Language Science Press. DOI: 10.5281/zenodo.376415 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Kluge2017,<br>author = {Kluge, Angela},<br>title = {A grammar of {Papuan} {Malay}},<br>year = {2017},<br>series = {Studies in Diversity Linguistics},<br>number = {11},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.376415}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "78",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-400",
+    "glottocode": "paun1241",
+    "title": "A grammar of Paunaka",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/400"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.10517532"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Terhart, Lena. 2024. A grammar of Paunaka. (Comprehensive Grammar Library 7). Berlin: Language Science Press. DOI: 10.5281/zenodo.10517532 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Terhart2024,<br>author = {Terhart, Lena},<br>title = {A grammar of {Paunaka}},<br>year = {2024},<br>series = {Comprehensive Grammar Library},<br>number = {7},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.10517532}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "400",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-85",
+    "glottocode": "fern1234",
+    "title": "A grammar of Pichi",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/85"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.2546450"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Yakpo, Kofi. 2019. A grammar of Pichi. (Studies in Diversity Linguistics 23). Berlin: Language Science Press. DOI: 10.5281/zenodo.2546450 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Yakpo2019,<br>author = {Yakpo, Kofi},<br>title = {A grammar of {Pichi}},<br>year = {2019},<br>series = {Studies in Diversity Linguistics},<br>number = {23},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.2546450}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "85",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-17",
+    "glottocode": "pite1240",
+    "title": "A grammar of Pite Saami",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/17"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.17169/FUDOCS_document_000000020749"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Wilbur, Joshua. 2014. A grammar of Pite Saami. (Studies in Diversity Linguistics 5). Berlin: Language Science Press. DOI: 10.17169/FUDOCS_document_000000020749 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Wilbur2014,<br>author = {Wilbur, Joshua},<br>title = {A grammar of {Pite} {Saami}},<br>year = {2014},<br>series = {Studies in Diversity Linguistics},<br>number = {5},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.17169/FUDOCS_document_000000020749}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "17",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-403",
+    "glottocode": "sher1258",
+    "title": "A grammar of Sherbro",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/403"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.15045985"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Childs, G. Tucker. 2025. A grammar of Sherbro. (African Language Grammars and Dictionaries 7). Berlin: Language Science Press. DOI: 10.5281/zenodo.15045985 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Childs2025,<br>author = {Childs, G. Tucker},<br>title = {A grammar of {Sherbro}},<br>year = {2025},<br>series = {African Language Grammars and Dictionaries},<br>number = {7},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.15045985}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "403",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-372",
+    "glottocode": "yaul1241",
+    "title": "A grammar of Ulwa (Papua New Guinea)",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/372"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.8094859"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Barlow, Russell. 2023. A grammar of Ulwa (Papua New Guinea). (Comprehensive Grammar Library 6). Berlin: Language Science Press. DOI: 10.5281/zenodo.8094859 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Barlow2023,<br>author = {Barlow, Russell},<br>title = {A grammar of {Ulwa} ({Papua} {New} {Guinea})},<br>year = {2023},<br>series = {Comprehensive Grammar Library},<br>number = {6},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.8094859}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "372",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-445",
+    "glottocode": "vama1243",
+    "title": "A grammar of Vamale",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/445"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.126060"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Rohleder, Jean. 2024. A grammar of Vamale. (Comprehensive Grammar Library 9). Berlin: Language Science Press. DOI: 10.5281/zenodo.126060 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Rohleder2024,<br>author = {Rohleder, Jean},<br>title = {A grammar of {Vamale}},<br>year = {2024},<br>series = {Comprehensive Grammar Library},<br>number = {9},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.126060}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "445",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-66",
+    "glottocode": "yakk1236",
+    "title": "A grammar of Yakkha",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/66"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.17169/langsci.b66.12"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Schackow, Diana. 2015. A grammar of Yakkha. (Studies in Diversity Linguistics 7). Berlin: Language Science Press. DOI: 10.17169/langsci.b66.12 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Schackow2015,<br>author = {Schackow, Diana},<br>title = {A grammar of {Yakkha}},<br>year = {2015},<br>series = {Studies in Diversity Linguistics},<br>number = {7},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.17169/langsci.b66.12}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "66",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-83",
+    "glottocode": "yauy1235",
+    "title": "A grammar of Yauyos Quechua",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/83"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.376355"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Shimelman, Aviva. 2017. A grammar of Yauyos Quechua. (Studies in Diversity Linguistics 9). Berlin: Language Science Press. DOI: 10.5281/zenodo.376355 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Shimelman2017,<br>author = {Shimelman, Aviva},<br>title = {A grammar of {Yauyos} {Quechua}},<br>year = {2017},<br>series = {Studies in Diversity Linguistics},<br>number = {9},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.376355}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "83",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-398",
+    "glottocode": "cayu1261",
+    "title": "A grammar and dictionary of Gayogo\u0331h\u00f3:n\u01eb\u02c0 (Cayuga)",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/398"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.10473483"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Dyck, Carrie, Froman, Frances, Keye, Alfred & Keye, Lottie. 2024. A grammar and dictionary of Gayogo\u0331h\u00f3:n\u01eb\u02c0 (Cayuga). (Estudios de Ling\u00fc\u00edstica Amerindia / Estudos de Lingu\u00edstica Amer\u00edndia / Studies of Amerindian Linguistics / \u00c9tudes de Linguistique Am\u00e9rindienne 1). Berlin: Language Science Press. DOI: 10.5281/zenodo.10473483 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Dyck2024,<br>author = {Dyck, Carrie and Froman, Frances and Keye, Alfred and Keye, Lottie},<br>title = {A grammar and dictionary of {Gayogo}\u0331h\u00f3:n\u01eb{\u02c0} ({Cayuga})},<br>year = {2024},<br>series = {Estudios de Ling\u00fc\u00edstica Amerindia / Estudos de Lingu\u00edstica Amer\u00edndia / Studies of Amerindian Linguistics / \u00c9tudes de Linguistique Am\u00e9rindienne},<br>number = {1},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.10473483}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "398",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-212",
+    "glottocode": "wara1294",
+    "title": "A grammar of Komnzo",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/212"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.1477799"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> D\u00f6hler, Christian. 2018. A grammar of Komnzo. (Studies in Diversity Linguistics 22). Berlin: Language Science Press. DOI: 10.5281/zenodo.1477799 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{D\u00f6hler2018,<br>author = {D\u00f6hler, Christian},<br>title = {A grammar of {Komnzo}},<br>year = {2018},<br>series = {Studies in Diversity Linguistics},<br>number = {22},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.1477799}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "212",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-245",
+    "glottocode": "sout2789",
+    "title": "A dictionary and grammatical sketch of Dagaare",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/245"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.5154710"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Ali, Mark, Grimm, Scott & Bodomo, Adams. 2021. A dictionary and grammatical sketch of Dagaare. (African Language Grammars and Dictionaries 4). Berlin: Language Science Press. DOI: 10.5281/zenodo.5154710 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Ali2021,<br>author = {Ali, Mark and Grimm, Scott and Bodomo, Adams},<br>title = {A dictionary and grammatical sketch of {Dagaare}},<br>year = {2021},<br>series = {African Language Grammars and Dictionaries},<br>number = {4},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.5154710}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "245",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-326",
+    "glottocode": "ruul1235",
+    "title": "A dictionary and grammatical sketch of Ruruuli-Lunyala",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/326"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.5548947"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Namyalo, Saudah, Witzlack-Makarevich, Alena, Kiriggwajjo, Anatole, Atuhairwe, Amos, Molochieva, Zarina, Mukama, Ruth Gimbo & Zellers, Margaret. 2021. A dictionary and grammatical sketch of Ruruuli-Lunyala. (African Language Grammars and Dictionaries 5). Berlin: Language Science Press. DOI: 10.5281/zenodo.5548947 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Namyalo2021,<br>author = {Namyalo, Saudah and Witzlack-Makarevich, Alena and Kiriggwajjo, Anatole and Atuhairwe, Amos and Molochieva, Zarina and Mukama, Ruth Gimbo and Zellers, Margaret},<br>title = {A dictionary and grammatical sketch of {Ruruuli}-{Lunyala}},<br>year = {2021},<br>series = {African Language Grammars and Dictionaries},<br>number = {5},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.5548947}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "326",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-324",
+    "glottocode": "cent2131",
+    "title": "A grammar of Choguita Rar\u00e1muri: In collaboration with Luz Elena Le\u00f3n Ram\u00edrez, Sebasti\u00e1n Fuentes Holgu\u00edn, Bertha Fuentes Loya and other Choguita Rar\u00e1muri language experts",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/324"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.7189161"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Caballero, Gabriela. 2022. A grammar of Choguita Rar\u00e1muri: In collaboration with Luz Elena Le\u00f3n Ram\u00edrez, Sebasti\u00e1n Fuentes Holgu\u00edn, Bertha Fuentes Loya and other Choguita Rar\u00e1muri language experts. (Comprehensive Grammar Library 5). Berlin: Language Science Press. DOI: 10.5281/zenodo.7189161 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Caballero2022,<br>author = {Caballero, Gabriela},<br>title = {A grammar of {Choguita} {Rar\u00e1muri}},<br>subtitle = { {In} collaboration with {Luz} {Elena} {Le\u00f3n} {Ram\u00edrez}, {Sebasti\u00e1n} {Fuentes} {Holgu\u00edn}, {Bertha} {Fuentes} {Loya} and other {Choguita} {Rar\u00e1muri} language experts},<br>year = {2022},<br>series = {Comprehensive Grammar Library},<br>number = {5},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.7189161}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "324",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-298",
+    "glottocode": "gyel1242",
+    "title": "A grammar of Gyeli",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/298"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.4737370"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Grimm, Nadine. 2021. A grammar of Gyeli. (Comprehensive Grammar Library 2). Berlin: Language Science Press. DOI: 10.5281/zenodo.4737370 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Grimm2021,<br>author = {Grimm, Nadine},<br>title = {A grammar of {Gyeli}},<br>year = {2021},<br>series = {Comprehensive Grammar Library},<br>number = {2},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.4737370}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "298",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-354",
+    "glottocode": "nucl1235",
+    "title": "A grammar of Iranian Armenian: Parskahayeren or Iranahayeren",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/354"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.8177018"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Dolatian, Hossep, Sharifzadeh, Afsheen & Vaux, Bert. 2023. A grammar of Iranian Armenian: Parskahayeren or Iranahayeren . (Languages of the Caucasus 3). Berlin: Language Science Press. DOI: 10.5281/zenodo.8177018 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Dolatian2023,<br>author = {Dolatian, Hossep and Sharifzadeh, Afsheen and Vaux, Bert},<br>title = {A grammar of {Iranian} {Armenian}},<br>subtitle = {{Parskahayeren} or {Iranahayeren} },<br>year = {2023},<br>series = {Languages of the Caucasus},<br>number = {3},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.8177018}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "354",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-124",
+    "glottocode": "rapa1244",
+    "title": "A grammar of Rapa Nui",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/124"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.235525"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Kieviet, Paulus. 2017. A grammar of Rapa Nui. (Studies in Diversity Linguistics 12). Berlin: Language Science Press. DOI: 10.5281/zenodo.235525 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Kieviet2017,<br>author = {Kieviet, Paulus},<br>title = {A grammar of {Rapa} {Nui}},<br>year = {2017},<br>series = {Studies in Diversity Linguistics},<br>number = {12},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.235525}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "124",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-250",
+    "glottocode": "sanz1248",
+    "title": "A grammar of Sanzhi Dargwa",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/250"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.3339225"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Forker, Diana. 2019. A grammar of Sanzhi Dargwa. (Languages of the Caucasus 2). Berlin: Language Science Press. DOI: 10.5281/zenodo.3339225 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Forker2019,<br>author = {Forker, Diana},<br>title = {A grammar of {Sanzhi} {Dargwa}},<br>year = {2019},<br>series = {Languages of the Caucasus},<br>number = {2},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.3339225}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "250",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-308",
+    "glottocode": "roma1326",
+    "title": "A grammar of Tuatschin: A Sursilvan Romansh dialect",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/308"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.5137647"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Maurer-Cecchini, Philippe. 2021. A grammar of Tuatschin: A Sursilvan Romansh dialect. (Comprehensive Grammar Library 3). Berlin: Language Science Press. DOI: 10.5281/zenodo.5137647 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Maurer-Cecchini2021,<br>author = {Maurer-Cecchini, Philippe},<br>title = {A grammar of {Tuatschin}},<br>subtitle = {A {Sursilvan} {Romansh} dialect},<br>year = {2021},<br>series = {Comprehensive Grammar Library},<br>number = {3},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.5137647}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "308",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
+  },
+  {
+    "resource_id": "langsci-grammar-528",
+    "glottocode": "anda1286",
+    "title": "Notes on the grammar of Andak\u00ed",
+    "description": "Open-access reference grammar published by Language Science Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "documentation"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://langsci-press.org/catalog/book/528"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.5281/zenodo.16964545"
+      }
+    ],
+    "citation": {
+      "preferred": "</div> <div class=\"value\"> Moens, Jelien & Pache, Matthias. 2025. Notes on the grammar of Andak\u00ed. (Estudios de Ling\u00fc\u00edstica Amerindia / Estudos de Lingu\u00edstica Amer\u00edndia / Studies of Amerindian Linguistics / \u00c9tudes de Linguistique Am\u00e9rindienne 2). Berlin: Language Science Press. DOI: 10.5281/zenodo.16964545 </div> <div class=\"value\"> <span><button class=\"obj_galley_link\" onclick=\"copyToClipboard('@book{Moens2025,<br>author = {Moens, Jelien and Pache, Matthias},<br>title = {{Notes} on the grammar of {Andak\u00ed}},<br>year = {2025},<br>series = {Estudios de Ling\u00fc\u00edstica Amerindia / Estudos de Lingu\u00edstica Amer\u00edndia / Studies of Amerindian Linguistics / \u00c9tudes de Linguistique Am\u00e9rindienne},<br>number = {2},<br>address = {Berlin},<br>publisher = {Language Science Press},<br>doi = {10.5281/zenodo.16964545}<br>}')\" Style=\"line-height: 16px;font-size: 10px;\">"
+    },
+    "provenance": {
+      "source_catalog": "langsci-press",
+      "source_record": "528",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Language Science Press catalog."
+    },
+    "tags": [
+      "grammar",
+      "langsci"
+    ]
   }
 ]
