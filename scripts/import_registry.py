@@ -5,6 +5,8 @@ Import registry entries from CSV/TSV into JSONL.
 Usage:
   python scripts/import_registry.py input.csv output.jsonl
   python scripts/import_registry.py input.tsv output.jsonl --append
+  python scripts/import_registry.py input.csv output.jsonl --schema schema/resource.schema.json
+  python scripts/import_registry.py input.csv output.jsonl --validate-schema
 
 Defaults:
 - access.level defaults to "open"
@@ -110,6 +112,63 @@ LINK_FIELDS = {
 }
 
 
+def load_schema_enums(schema_path: Path) -> dict:
+    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+    props = schema.get("properties", {})
+
+    def get_enum(obj: dict, *path: str) -> list:
+        cur = obj
+        for key in path:
+            if not isinstance(cur, dict):
+                return []
+            cur = cur.get(key)
+        return cur if isinstance(cur, list) else []
+
+    return {
+        "resource_type": set(get_enum(props.get("resource_type", {}), "enum")),
+        "modality": set(get_enum(props.get("modality", {}), "items", "enum")),
+        "domain": set(get_enum(props.get("domain", {}), "items", "enum")),
+        "formats": set(get_enum(props.get("formats", {}), "items", "enum")),
+        "annotation_layers": set(get_enum(props.get("annotation_layers", {}), "items", "enum")),
+        "access_level": set(get_enum(props.get("access", {}), "properties", "level", "enum")),
+        "link_kind": set(get_enum(props.get("links", {}), "items", "properties", "kind", "enum")),
+        "curation_status": set(get_enum(props.get("curation", {}), "properties", "status", "enum")),
+    }
+
+
+def validate_enums(entry: dict, schema_enums: dict, row_num: int, errors: list[str]) -> None:
+    def check_value(field: str, value: str, allowed: set[str]):
+        if not allowed or not value:
+            return
+        if value not in allowed:
+            errors.append(f"[row {row_num}] {field} not in schema enum: {value}")
+
+    def check_list(field: str, values: list[str], allowed: set[str]):
+        if not allowed or not values:
+            return
+        for value in values:
+            if value not in allowed:
+                errors.append(f"[row {row_num}] {field} not in schema enum: {value}")
+
+    check_value("resource_type", entry.get("resource_type", ""), schema_enums.get("resource_type", set()))
+    check_list("modality", entry.get("modality", []), schema_enums.get("modality", set()))
+    check_list("domain", entry.get("domain", []), schema_enums.get("domain", set()))
+    check_list("formats", entry.get("formats", []), schema_enums.get("formats", set()))
+    check_list("annotation_layers", entry.get("annotation_layers", []), schema_enums.get("annotation_layers", set()))
+    check_value(
+        "access.level",
+        entry.get("access", {}).get("level", ""),
+        schema_enums.get("access_level", set()),
+    )
+    for link in entry.get("links", []):
+        kind = link.get("kind") if isinstance(link, dict) else ""
+        check_value("links.kind", kind, schema_enums.get("link_kind", set()))
+    check_value(
+        "curation.status",
+        entry.get("curation", {}).get("status", ""),
+        schema_enums.get("curation_status", set()),
+    )
+
 def normalize_header(name: str) -> str:
     cleaned = re.sub(r"[^a-zA-Z0-9]+", "_", name.strip().lower())
     cleaned = cleaned.strip("_")
@@ -185,7 +244,14 @@ def parse_links(row: dict, row_num: int, errors: list[str], warnings: list[str])
     return deduped
 
 
-def build_entry(row: dict, row_num: int, defaults: dict, errors: list[str], warnings: list[str]) -> dict | None:
+def build_entry(
+    row: dict,
+    row_num: int,
+    defaults: dict,
+    errors: list[str],
+    warnings: list[str],
+    schema_enums: dict | None,
+) -> dict | None:
     entry = {}
 
     for field in REQUIRED_FIELDS:
@@ -290,6 +356,9 @@ def build_entry(row: dict, row_num: int, defaults: dict, errors: list[str], warn
     if tags:
         entry["tags"] = tags
 
+    if schema_enums:
+        validate_enums(entry, schema_enums, row_num, errors)
+
     if errors:
         return None
     return entry
@@ -320,6 +389,12 @@ def main() -> int:
     parser.add_argument("--default-curation-status", default="seed", help="Default curation status")
     parser.add_argument("--default-created", default=date.today().isoformat(), help="Default created date (YYYY-MM-DD)")
     parser.add_argument("--allow-non-open", action="store_true", help="Allow non-open access levels")
+    parser.add_argument("--schema", help="Path to JSON schema for enum validation")
+    parser.add_argument(
+        "--validate-schema",
+        action="store_true",
+        help="Validate enums using schema/resource.schema.json",
+    )
 
     args = parser.parse_args()
     input_path = Path(args.input)
@@ -333,6 +408,19 @@ def main() -> int:
         "access_level": "open",
         "allow_non_open": args.allow_non_open,
     }
+
+    schema_path = None
+    if args.schema:
+        schema_path = Path(args.schema)
+    elif args.validate_schema:
+        schema_path = Path("schema/resource.schema.json")
+
+    schema_enums = None
+    if schema_path:
+        if not schema_path.exists():
+            print(f"Schema not found: {schema_path}", file=sys.stderr)
+            return 1
+        schema_enums = load_schema_enums(schema_path)
 
     text = input_path.read_text(encoding="utf-8")
     reader = csv.DictReader(text.splitlines(), delimiter=delimiter)
@@ -372,7 +460,7 @@ def main() -> int:
         if not any(value.strip() for value in normalized_row.values()):
             continue
 
-        entry = build_entry(normalized_row, row_num, defaults, errors, warnings)
+        entry = build_entry(normalized_row, row_num, defaults, errors, warnings, schema_enums)
         if entry:
             entries.append(entry)
 

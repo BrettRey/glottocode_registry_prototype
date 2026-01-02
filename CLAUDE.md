@@ -44,6 +44,10 @@ python scripts/build_web_registry.py data/registry.jsonl web/registry.json
 
 # Import CSV/TSV into JSONL
 python scripts/import_registry.py path/to/input.csv data/registry.jsonl --append
+python scripts/import_registry.py path/to/input.csv data/registry.jsonl --validate-schema
+
+# Batch import pipeline
+python scripts/batch_import.py path/to/input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json
 
 # Optional link check (networked)
 python scripts/link_check.py data/registry.jsonl --limit 25

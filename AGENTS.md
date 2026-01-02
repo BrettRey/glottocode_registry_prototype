@@ -7,6 +7,7 @@
 - `scripts/quality.py`: Data quality checks beyond schema validation.
 - `scripts/build_web_registry.py`: Build `web/registry.json` from JSONL.
 - `scripts/import_registry.py`: Import CSV/TSV into JSONL.
+- `scripts/batch_import.py`: One-shot import + build + validate + quality.
 - `scripts/link_check.py`: Optional HTTP reachability checks for links.
 - `web/index.html`: Static search UI.
 - `web/registry.json`: JSON array consumed by the UI; keep it in sync with `data/registry.jsonl`.
@@ -23,6 +24,9 @@
   - `python scripts/build_web_registry.py data/registry.jsonl web/registry.json`
 - Import from CSV/TSV:
   - `python scripts/import_registry.py path/to/input.csv data/registry.jsonl --append`
+  - `python scripts/import_registry.py path/to/input.csv data/registry.jsonl --validate-schema`
+- Batch import pipeline:
+  - `python scripts/batch_import.py input.csv data/registry.jsonl web/registry.json --append --schema schema/resource.schema.json`
 - Optional link check (networked):
   - `python scripts/link_check.py data/registry.jsonl --limit 25`
 - Serve the UI locally:
