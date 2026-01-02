@@ -1,7 +1,7 @@
 # Glottocode-first registry (prototype)
 
 This is a minimal, working prototype of a Glottocode-first linguistic resource registry.
-See `CONTRIBUTING.md` for how to add public resources.
+See `CONTRIBUTING.md` for how to add resources.
 
 ## What it is
 - A **JSON Schema** describing a registry entry: `schema/resource.schema.json`
@@ -20,7 +20,7 @@ See `CONTRIBUTING.md` for how to add public resources.
 
 ## Design choices (minimal, pragmatic)
 - **Glottocode is required** (primary language identifier).
-- **Public-only for now** (access level must be `open`).
+- **Access level required** (open preferred; restricted/controlled/closed allowed with contact + constraints).
 - **Links are required** (at least a landing page).
 - Everything else is optional so seeding is cheap.
 
@@ -34,4 +34,4 @@ See `CONTRIBUTING.md` for how to add public resources.
 ## Next steps (if you want this to become real)
 - Add automated link checking + a `last_verified` stamp.
 - Add a Glottolog validation step (ensure glottocode exists).
-- Decide governance: who can merge, how disputes are handled, how restricted resources are represented.
+- Decide governance: who can merge, how disputes are handled, how access constraints are represented.

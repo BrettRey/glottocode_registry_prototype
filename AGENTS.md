@@ -41,14 +41,13 @@
 - Serve the UI locally:
   - `python -m http.server 8000`
   - Then open `http://localhost:8000` in a browser.
-- There is no build step; updates to `registry.json` are manual.
 
 ## Coding Style & Naming Conventions
 - Python: 4-space indentation, standard library style, keep scripts small and readable.
 - JSON Schema: 2-space indentation; do not add fields outside the schema (`additionalProperties: false`).
 - JSONL entries: one line per record; keep keys in schema order for readability.
 - Field naming: `resource_id` is lowercase with hyphens (e.g., `example-treebank`); `glottocode` is 4 letters + 4 digits.
-- Access: only `open` resources are accepted for now.
+- Access: `open` preferred; `restricted`/`controlled`/`closed` entries require contact + constraints.
 
 ## Testing Guidelines
 - No unit test framework is currently configured.

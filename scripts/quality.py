@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Data quality checks for registry entries beyond JSON Schema validation.
-Public-only policy is enforced here (access level must be open).
+Open access is preferred; non-open entries should include contact + constraints.
 
 Usage:
   python scripts/quality.py data/registry.jsonl [registry.json]
@@ -73,7 +73,7 @@ def main(registry_path: Path, web_path: Path | None = None) -> int:
         access = item.get("access", {})
         level = access.get("level")
         if level and level != "open":
-            errors.append(f"[line {line}] access level is not public: {level}")
+            warnings.append(f"[line {line}] non-open access level: {level}")
         if level in {"restricted", "controlled", "closed"}:
             if not access.get("contact"):
                 warnings.append(f"[line {line}] access level '{level}' missing contact")

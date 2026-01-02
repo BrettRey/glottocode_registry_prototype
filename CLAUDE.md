@@ -25,7 +25,7 @@ glottocode_registry_prototype/
 ## Key Design Choices
 
 - **Glottocode required** - primary language identifier (from Glottolog)
-- **Public-only for now** - access level must be open
+- **Access level required** - open preferred; restricted/controlled/closed allowed with contact + constraints
 - **Links required** - at least a landing page
 - **Everything else optional** - cheap seeding
 

@@ -11549,5 +11549,269 @@
       "legal",
       "treebanking"
     ]
+  },
+  {
+    "resource_id": "cgel-2002",
+    "glottocode": "stan1293",
+    "title": "The Cambridge Grammar of the English Language",
+    "description": "Comprehensive reference grammar of English (CGEL) published by Cambridge University Press.",
+    "resource_type": "grammar",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "morphology"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "Copyright Cambridge University Press (2002)",
+    "access": {
+      "level": "closed",
+      "constraints": [
+        "purchase or institutional subscription required"
+      ],
+      "contact": "Cambridge University Press"
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.cambridge.org/core/books/cambridge-grammar-of-the-english-language/A78402ABF5176AD283494180BCA2046F"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.1017/9781316423530"
+      }
+    ],
+    "citation": {
+      "preferred": "Huddleston, Rodney; Pullum, Geoffrey K. (2002). The Cambridge Grammar of the English Language. Cambridge University Press."
+    },
+    "provenance": {
+      "source_catalog": "Cambridge Core",
+      "source_record": "A78402ABF5176AD283494180BCA2046F",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2002-04-15",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "grammar",
+      "english"
+    ]
+  },
+  {
+    "resource_id": "cgel-errata-pullum",
+    "glottocode": "stan1293",
+    "title": "CGEL errata page (Pullum)",
+    "description": "Errata and corrigenda page for The Cambridge Grammar of the English Language maintained by Geoffrey K. Pullum.",
+    "resource_type": "other",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "html"
+    ],
+    "license": "Unknown",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.lel.ed.ac.uk/~gpullum/cgelerrata.html"
+      }
+    ],
+    "citation": {
+      "preferred": "Pullum, Geoffrey K. (n.d.). Errata page for The Cambridge Grammar of the English Language."
+    },
+    "provenance": {
+      "source_catalog": "Pullum homepage",
+      "source_record": "cgelerrata.html",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "errata",
+      "english"
+    ]
+  },
+  {
+    "resource_id": "adjectives-adverbs-2010",
+    "glottocode": "stan1293",
+    "title": "The distribution and category status of adjectives and adverbs",
+    "description": "Word Structure article analyzing adjective/adverb category status in English.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "morphology"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "Copyright Edinburgh University Press (2010)",
+    "access": {
+      "level": "closed",
+      "constraints": [
+        "subscription or purchase required"
+      ],
+      "contact": "Edinburgh University Press"
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.research.ed.ac.uk/en/publications/the-distribution-and-category-status-of-adjectives-and-adverbs"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.3366/E1750124510000486"
+      }
+    ],
+    "citation": {
+      "preferred": "Payne, John; Huddleston, Rodney; Pullum, Geoffrey K. (2010). The distribution and category status of adjectives and adverbs. Word Structure 3(1), 31-81. https://doi.org/10.3366/E1750124510000486."
+    },
+    "provenance": {
+      "source_catalog": "Edinburgh Research Explorer",
+      "source_record": "the-distribution-and-category-status-of-adjectives-and-adverbs",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2010-04-01",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "adjectives",
+      "adverbs",
+      "word-structure"
+    ]
+  },
+  {
+    "resource_id": "fusion-of-functions-2007",
+    "glottocode": "stan1293",
+    "title": "Fusion of functions: The syntax of once, twice and thrice",
+    "description": "Journal of Linguistics article on the syntax of once, twice, and thrice.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "morphology"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "Copyright Cambridge University Press (2007)",
+    "access": {
+      "level": "closed",
+      "constraints": [
+        "subscription or purchase required"
+      ],
+      "contact": "Cambridge University Press"
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.cambridge.org/core/journals/journal-of-linguistics/article/fusion-of-functions-the-syntax-of-once-twice-and-thrice1/D0D583318480CCEB18536C891286D48E"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.1017/S002222670700477X"
+      }
+    ],
+    "citation": {
+      "preferred": "Payne, John; Huddleston, Rodney; Pullum, Geoffrey K. (2007). Fusion of functions: The syntax of once, twice and thrice. Journal of Linguistics 43(3), 565-603. https://doi.org/10.1017/S002222670700477X."
+    },
+    "provenance": {
+      "source_catalog": "Cambridge Core",
+      "source_record": "D0D583318480CCEB18536C891286D48E",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2007-10-22",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "syntax",
+      "journal-of-linguistics"
+    ]
+  },
+  {
+    "resource_id": "more-less-never-adverbs-2024",
+    "glottocode": "stan1293",
+    "title": "Why more and less are never adverbs",
+    "description": "Journal of Linguistics article arguing for determinative status of more and less in analytic comparatives.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://www.cambridge.org/core/journals/journal-of-linguistics/article/why-more-and-less-are-never-adverbs/F680274AB9D526743F8721B23E992398"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.1017/S0022226724000239"
+      }
+    ],
+    "citation": {
+      "preferred": "Reynolds, Brett. (2024). Why more and less are never adverbs. Journal of Linguistics. https://doi.org/10.1017/S0022226724000239."
+    },
+    "provenance": {
+      "source_catalog": "Cambridge Core",
+      "source_record": "F680274AB9D526743F8721B23E992398",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2024-10-04",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "adverbs",
+      "journal-of-linguistics"
+    ]
   }
 ]

@@ -1,12 +1,12 @@
 name: Suggest a resource
-description: Propose a public linguistics resource to add to the registry.
+description: Propose a linguistics resource to add to the registry.
 title: "Add resource: <short name>"
 labels: ["suggestion"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please propose **publicly accessible** resources only. We store pointers (links, metadata), not the data itself.
+        Open access is preferred, but restricted/closed resources are allowed when access constraints are clear. We store pointers (links, metadata), not the data itself.
   - type: input
     id: resource_id
     attributes:
@@ -67,8 +67,21 @@ body:
       label: Access level
       options:
         - open
+        - restricted
+        - controlled
+        - closed
     validations:
       required: true
+  - type: input
+    id: access_constraints
+    attributes:
+      label: Access constraints (required if not open)
+      description: "Example: purchase or institutional subscription required"
+  - type: input
+    id: access_contact
+    attributes:
+      label: Access contact (required if not open)
+      description: "Publisher or data access contact"
   - type: input
     id: landing
     attributes:
@@ -111,7 +124,7 @@ body:
     attributes:
       label: Checks
       options:
-        - label: The resource is publicly accessible.
+        - label: The access level and constraints are accurate.
           required: true
         - label: The license is explicitly stated.
           required: true

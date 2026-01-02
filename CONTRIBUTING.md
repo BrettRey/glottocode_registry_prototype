@@ -1,10 +1,10 @@
 # Contributing
 
-Thanks for helping grow the glottocode-first registry! This project accepts **publicly accessible** resources only. We store metadata and links, not the data itself.
+Thanks for helping grow the glottocode-first registry! This project accepts publicly accessible resources and allows restricted/closed materials when access constraints are clear. We store metadata and links, not the data itself.
 
 ## What to Add
-- Public corpora, lexicons, grammars, treebanks, datasets, tools, or bibliographies.
-- A stable landing page and an explicit license.
+- Corpora, lexicons, grammars, treebanks, datasets, tools, or bibliographies.
+- A stable landing page, an explicit license, and accurate access constraints.
 
 ## How to Add a Resource
 1. Add a JSON object (one per line) to `data/registry.jsonl`.
@@ -22,7 +22,8 @@ Thanks for helping grow the glottocode-first registry! This project accepts **pu
 ## Field Conventions
 - `resource_id`: lowercase with hyphens (e.g., `example-treebank`).
 - `glottocode`: 4 letters + 4 digits (e.g., `abcd1234`).
-- `access.level`: must be `open`.
+- `access.level`: one of `open`, `restricted`, `controlled`, or `closed`.
+- Non-open access requires `access.contact` and at least one `access.constraints` entry.
 - `formats` and `annotation_layers`: use the controlled vocab in `schema/resource.schema.json`.
 - `links`: include at least one `landing` URL (https preferred).
 
