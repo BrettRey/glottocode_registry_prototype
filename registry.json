@@ -11336,5 +11336,218 @@
       "grammar",
       "ldc"
     ]
+  },
+  {
+    "resource_id": "cgelbank",
+    "glottocode": "stan1293",
+    "title": "CGELBank (CGEL trees for English)",
+    "description": "Human-annotated English treebank using the CGEL formalism; includes CGEL trees and parallel CoNLL-U exports for EWT and Twitter samples.",
+    "resource_type": "treebank",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "computational"
+    ],
+    "formats": [
+      "txt",
+      "conllu"
+    ],
+    "annotation_layers": [
+      "constituency"
+    ],
+    "license": "CC-BY-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://github.com/nert-nlp/cgel"
+      },
+      {
+        "kind": "paper",
+        "url": "https://arxiv.org/abs/2210.00394"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "GitHub",
+      "source_record": "nert-nlp/cgel",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2023-07-04",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "treebank",
+      "english"
+    ]
+  },
+  {
+    "resource_id": "cgelbank-paper-2022",
+    "glottocode": "stan1293",
+    "title": "CGELBank: CGEL as a Framework for English Syntax Annotation",
+    "description": "Paper describing the CGELBank project and annotation formalism for English syntax.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "computational"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "LicenseRef-arXiv",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://arxiv.org/abs/2210.00394"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.48550/arXiv.2210.00394"
+      }
+    ],
+    "citation": {
+      "preferred": "Reynolds, Brett; Arora, Aryaman; Schneider, Nathan. (2022). CGELBank: CGEL as a Framework for English Syntax Annotation. arXiv:2210.00394."
+    },
+    "provenance": {
+      "source_catalog": "arXiv",
+      "source_record": "2210.00394",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2022-10-01",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "treebank",
+      "paper"
+    ]
+  },
+  {
+    "resource_id": "cgelbank-annotation-manual",
+    "glottocode": "stan1293",
+    "title": "CGELBank Annotation Manual v1.2",
+    "description": "Annotation manual for CGELBank, detailing the CGEL-based treebanking scheme for English.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "computational"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "LicenseRef-arXiv",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://arxiv.org/abs/2305.17347"
+      },
+      {
+        "kind": "doi",
+        "url": "https://doi.org/10.48550/arXiv.2305.17347"
+      },
+      {
+        "kind": "code",
+        "url": "https://github.com/nert-nlp/cgel"
+      }
+    ],
+    "citation": {
+      "preferred": "Reynolds, Brett; Schneider, Nathan; Arora, Aryaman. (2025). CGELBank Annotation Manual v1.2. arXiv:2305.17347."
+    },
+    "provenance": {
+      "source_catalog": "arXiv",
+      "source_record": "2305.17347",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2025-09-28",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "annotation",
+      "manual"
+    ]
+  },
+  {
+    "resource_id": "legal-cgel-2025",
+    "glottocode": "stan1293",
+    "title": "Legal-CGEL: Analyzing Legal Text in the CGELBank Framework",
+    "description": "Treebanking project applying the CGELBank framework to legal English; described in a TLT 2025 paper.",
+    "resource_type": "bibliography",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "syntax",
+      "computational"
+    ],
+    "formats": [
+      "pdf"
+    ],
+    "license": "LicenseRef-ACL-OpenAccess",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://aclanthology.org/2025.tlt-1.17/"
+      },
+      {
+        "kind": "paper",
+        "url": "https://aclanthology.org/2025.tlt-1.17.pdf"
+      }
+    ],
+    "citation": {
+      "preferred": "Waldon, Brandon; Wells, Micaela; Tiwari, Devika; Gopalan, Meru; Schneider, Nathan. (2025). Legal-CGEL: Analyzing Legal Text in the CGELBank Framework. In Proceedings of TLT (SyntaxFest 2025)."
+    },
+    "provenance": {
+      "source_catalog": "ACL Anthology",
+      "source_record": "2025.tlt-1.17",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2025-08-01",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ]
+    },
+    "tags": [
+      "cgel",
+      "legal",
+      "treebanking"
+    ]
   }
 ]
