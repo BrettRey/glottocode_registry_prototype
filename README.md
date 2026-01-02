@@ -6,6 +6,7 @@ This is a minimal, working prototype of a Glottocode-first linguistic resource r
 - A **JSON Schema** describing a registry entry: `schema/resource.schema.json`
 - A **JSONL registry** you can grow with one entry per line: `data/registry.jsonl`
 - A tiny **validator**: `scripts/validate.py`
+- A **quality checker** for extra rules: `scripts/quality.py`
 - A single-file **search UI** you can open locally: `web/index.html` (loads `web/registry.json`)
 
 ## Design choices (minimal, pragmatic)
@@ -17,7 +18,8 @@ This is a minimal, working prototype of a Glottocode-first linguistic resource r
 ## Suggested workflow (GitHub-friendly)
 1. Contributors add/edit records in `data/registry.jsonl` via PR.
 2. CI runs `scripts/validate.py` to enforce schema + basic validity.
-3. Periodic releases produce `web/registry.json` for the static search page.
+3. CI runs `scripts/quality.py` for duplicate IDs, landing links, and date sanity.
+4. Periodic releases produce `web/registry.json` for the static search page.
 
 ## Next steps (if you want this to become real)
 - Add controlled vocabularies for annotation layers and formats.

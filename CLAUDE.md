@@ -36,6 +36,9 @@ glottocode_registry_prototype/
 # Validate registry
 python scripts/validate.py
 
+# Run quality checks (extra rules)
+python scripts/quality.py data/registry.jsonl web/registry.json
+
 # Run local server for web UI
 python -m http.server 8000 --directory web
 ```

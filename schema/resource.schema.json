@@ -97,17 +97,62 @@
     },
     "formats": {
       "type": "array",
+      "uniqueItems": true,
       "items": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "wav",
+          "flac",
+          "mp3",
+          "ogg",
+          "mp4",
+          "webm",
+          "textgrid",
+          "eaf",
+          "conllu",
+          "csv",
+          "tsv",
+          "json",
+          "jsonl",
+          "xml",
+          "tei-xml",
+          "pdf",
+          "html",
+          "txt",
+          "zip",
+          "tar",
+          "parquet"
+        ]
       },
-      "description": "File/data formats present (e.g., ELAN .eaf, TextGrid, CoNLL-U, CSV, JSONL, TEI XML)."
+      "description": "File/data formats present (controlled vocabulary)."
     },
     "annotation_layers": {
       "type": "array",
+      "uniqueItems": true,
       "items": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "orthographic transcription",
+          "phonetic transcription",
+          "phonemic transcription",
+          "morpheme segmentation",
+          "glosses",
+          "lemmas",
+          "part-of-speech",
+          "morphological features",
+          "dependency relations",
+          "constituency",
+          "tokenization",
+          "speaker diarization",
+          "turn boundaries",
+          "utterance boundaries",
+          "prosodic phrasing",
+          "time alignment",
+          "translation",
+          "notes"
+        ]
       },
-      "description": "Annotation layers present (free text; prefer controlled vocab later)."
+      "description": "Annotation layers present (controlled vocabulary)."
     },
     "license": {
       "type": "string",

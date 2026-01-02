@@ -2,89 +2,664 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Glottocode-first Registry (Prototype)</title>
+  <title>Glottocode-first Registry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; line-height: 1.35; }
-    input { padding: 10px; width: min(900px, 95vw); font-size: 16px; }
-    .meta { color: #666; margin-top: 8px; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; margin: 14px 0; max-width: 900px; }
-    .title { font-size: 18px; font-weight: 650; }
-    .pill { display: inline-block; border: 1px solid #ddd; border-radius: 999px; padding: 2px 10px; margin-right: 8px; font-size: 13px; color: #333; }
-    .small { color: #444; font-size: 14px; }
-    a { color: inherit; }
+    :root {
+      --bg: #f4f0ea;
+      --bg-2: #ede7df;
+      --ink: #1f1a17;
+      --muted: #6c5f55;
+      --accent: #0f6a5f;
+      --accent-2: #c36b2c;
+      --card: #fff9f2;
+      --stroke: #e1d7cc;
+      --shadow: 0 8px 24px rgba(30, 24, 20, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      color: var(--ink);
+      background: radial-gradient(1200px 600px at 10% -10%, #f9f1e6 0%, transparent 60%),
+                  radial-gradient(900px 500px at 90% 0%, #efe5d8 0%, transparent 55%),
+                  var(--bg);
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 28px 20px 40px; }
+    .hero {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+      align-items: end;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: "Fraunces", serif;
+      font-size: clamp(30px, 5vw, 52px);
+      margin: 0 0 8px;
+      letter-spacing: -0.5px;
+    }
+    .hero p { margin: 0 0 10px; color: var(--muted); max-width: 620px; }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      box-shadow: var(--shadow);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+    .btn {
+      border: 1px solid var(--stroke);
+      background: var(--card);
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    .btn.primary { background: var(--accent); color: white; border-color: transparent; }
+    .btn.alt { background: var(--accent-2); color: white; border-color: transparent; }
+    .btn:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 2.1fr);
+      gap: 20px;
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--stroke);
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .search input {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--stroke);
+      font-size: 15px;
+      background: white;
+    }
+
+    .section-title {
+      font-family: "Fraunces", serif;
+      font-size: 16px;
+      margin: 16px 0 8px;
+    }
+
+    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      border: 1px solid var(--stroke);
+      background: white;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .chip.active {
+      background: var(--accent);
+      color: white;
+      border-color: transparent;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 12px;
+    }
+
+    .results-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .results-count { font-size: 14px; color: var(--muted); }
+
+    .sort select {
+      border-radius: 12px;
+      border: 1px solid var(--stroke);
+      padding: 8px 12px;
+      background: white;
+      font-size: 13px;
+    }
+
+    .cards { display: grid; gap: 16px; }
+    .card {
+      background: white;
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 10px;
+    }
+    .card-title {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .card-title h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .badge {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--stroke);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    .badge.open { background: #e1f3ee; border-color: #b6e3d6; color: #0f6a5f; }
+    .badge.restricted { background: #fde8d6; border-color: #f4c7a5; color: #a15218; }
+    .badge.controlled { background: #e7edf9; border-color: #cad6f5; color: #2b4aa0; }
+    .badge.closed { background: #f6d9d9; border-color: #efb2b2; color: #8a1d1d; }
+
+    .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .pill {
+      background: var(--bg-2);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .links { display: flex; flex-wrap: wrap; gap: 12px; font-size: 13px; }
+
+    .footer {
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .status {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .actions { justify-content: flex-start; }
+      .grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
-  <h1>Glottocode-first Registry (Prototype)</h1>
-  <p class="small">Type to filter by title/description/glottocode/resource type. This is a static page; data is in <code>registry.json</code>.</p>
-  <input id="q" placeholder="Search (e.g., abcd1234, corpus, treebank, prosody)…" autofocus>
-  <div class="meta" id="meta"></div>
-  <div id="results"></div>
+  <div class="wrap">
+    <header class="hero">
+      <div>
+        <h1>Glottocode-first Registry</h1>
+        <p>Browse linguistics resources anchored on glottocodes. Filter by resource type, access level, modality, and domain, then export a focused slice for downstream work.</p>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="export-json">Export JSON</button>
+        <button class="btn alt" id="copy-jsonl">Copy JSONL</button>
+        <button class="btn" id="reset">Reset filters</button>
+        <div class="status" id="status" aria-live="polite"></div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <aside class="panel">
+        <div class="search">
+          <input id="search" type="text" placeholder="Search title, glottocode, description, tags..." autocomplete="off">
+        </div>
+
+        <div class="section-title">Quick toggles</div>
+        <div class="chip-row" id="toggles"></div>
+
+        <div class="section-title">Resource type</div>
+        <div class="chip-row" id="filter-resource_type"></div>
+
+        <div class="section-title">Access level</div>
+        <div class="chip-row" id="filter-access"></div>
+
+        <div class="section-title">Modality</div>
+        <div class="chip-row" id="filter-modality"></div>
+
+        <div class="section-title">Domain</div>
+        <div class="chip-row" id="filter-domain"></div>
+
+        <div class="section-title">Active filters</div>
+        <div class="meta-row" id="active-filters"></div>
+      </aside>
+
+      <section>
+        <div class="results-header">
+          <div class="results-count" id="results-count">0 results</div>
+          <div class="sort">
+            <label>
+              Sort
+              <select id="sort">
+                <option value="title-asc">Title (A-Z)</option>
+                <option value="title-desc">Title (Z-A)</option>
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="cards" id="results"></div>
+      </section>
+    </main>
+
+    <div class="footer">Static prototype. Data lives in <code>web/registry.json</code>.</div>
+  </div>
 
 <script>
-async function load() {
-  const res = await fetch("./registry.json");
-  return await res.json();
-}
+  const state = {
+    q: "",
+    sort: "title-asc",
+    filters: {
+      resource_type: new Set(),
+      access: new Set(),
+      modality: new Set(),
+      domain: new Set()
+    },
+    toggles: {
+      open_only: false,
+      has_audio: false,
+      has_code: false
+    }
+  };
 
-function norm(s){ return (s||"").toString().toLowerCase(); }
+  const toggleDefs = [
+    { key: "open_only", label: "Open access" },
+    { key: "has_audio", label: "Has audio" },
+    { key: "has_code", label: "Has code link" }
+  ];
 
-function render(items) {
-  const el = document.getElementById("results");
-  el.innerHTML = "";
-  for (const r of items) {
-    const card = document.createElement("div");
-    card.className = "card";
+  const accessLabels = {
+    open: "open",
+    restricted: "restricted",
+    controlled: "controlled",
+    closed: "closed"
+  };
 
-    const title = document.createElement("div");
-    title.className = "title";
-    title.textContent = r.title;
+  const statusEl = document.getElementById("status");
 
-    const pills = document.createElement("div");
-    pills.innerHTML =
-      `<span class="pill">${r.resource_type}</span>` +
-      `<span class="pill">${r.glottocode}</span>` +
-      `<span class="pill">access:${(r.access && r.access.level) ? r.access.level : "?"}</span>`;
+  function setStatus(msg) {
+    statusEl.textContent = msg;
+    if (msg) {
+      setTimeout(() => {
+        if (statusEl.textContent === msg) statusEl.textContent = "";
+      }, 3000);
+    }
+  }
 
-    const desc = document.createElement("div");
-    desc.className = "small";
-    desc.textContent = r.description || "";
+  async function load() {
+    const res = await fetch("./registry.json");
+    return await res.json();
+  }
 
-    const links = document.createElement("div");
-    links.className = "small";
-    if (Array.isArray(r.links)) {
-      links.innerHTML = r.links.map(l => `<a href="${l.url}" target="_blank" rel="noreferrer">${l.kind}</a>`).join(" · ");
+  function uniqueValues(data, key) {
+    const out = new Set();
+    data.forEach(item => {
+      const value = item[key];
+      if (Array.isArray(value)) {
+        value.forEach(v => out.add(v));
+      } else if (value) {
+        out.add(value);
+      }
+    });
+    return Array.from(out).sort();
+  }
+
+  function uniqueList(values) {
+    return Array.from(new Set(values)).sort();
+  }
+
+  function renderChips(containerId, values, groupKey) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = "";
+    values.forEach(value => {
+      const chip = document.createElement("button");
+      chip.className = "chip";
+      chip.dataset.group = groupKey;
+      chip.dataset.value = value;
+      chip.textContent = value;
+      container.appendChild(chip);
+    });
+  }
+
+  function renderToggleChips() {
+    const container = document.getElementById("toggles");
+    container.innerHTML = "";
+    toggleDefs.forEach(toggle => {
+      const chip = document.createElement("button");
+      chip.className = "chip";
+      chip.dataset.toggle = toggle.key;
+      chip.textContent = toggle.label;
+      container.appendChild(chip);
+    });
+  }
+
+  function updateActiveChips() {
+    document.querySelectorAll(".chip").forEach(chip => {
+      const group = chip.dataset.group;
+      const value = chip.dataset.value;
+      const toggle = chip.dataset.toggle;
+      if (group && state.filters[group].has(value)) {
+        chip.classList.add("active");
+      } else if (toggle && state.toggles[toggle]) {
+        chip.classList.add("active");
+      } else {
+        chip.classList.remove("active");
+      }
+    });
+  }
+
+  function updateActiveFilters() {
+    const el = document.getElementById("active-filters");
+    const items = [];
+    Object.entries(state.filters).forEach(([key, values]) => {
+      values.forEach(value => items.push(`${key}: ${value}`));
+    });
+    Object.entries(state.toggles).forEach(([key, value]) => {
+      if (value) items.push(key.replace("_", " "));
+    });
+    el.textContent = items.length ? items.join(" · ") : "No active filters";
+  }
+
+  function matchesFilters(item) {
+    if (state.q) {
+      const haystack = [
+        item.resource_id,
+        item.glottocode,
+        item.title,
+        item.description,
+        item.resource_type,
+        (item.domain || []).join(" "),
+        (item.modality || []).join(" "),
+        (item.formats || []).join(" "),
+        (item.annotation_layers || []).join(" "),
+        (item.tags || []).join(" ")
+      ].join(" ").toLowerCase();
+      if (!haystack.includes(state.q)) return false;
     }
 
-    card.appendChild(title);
-    card.appendChild(pills);
-    if (r.description) card.appendChild(desc);
-    card.appendChild(links);
-    el.appendChild(card);
-  }
-  document.getElementById("meta").textContent = `${items.length} result(s)`;
-}
+    if (state.filters.resource_type.size && !state.filters.resource_type.has(item.resource_type)) {
+      return false;
+    }
 
-load().then(data => {
-  const q = document.getElementById("q");
-  function apply() {
-    const needle = norm(q.value).trim();
-    if (!needle) { render(data); return; }
-    const out = data.filter(r => {
-      const blob = [
-        r.resource_id, r.glottocode, r.title, r.description, r.resource_type,
-        (r.domain||[]).join(" "), (r.modality||[]).join(" "),
-        (r.formats||[]).join(" "), (r.annotation_layers||[]).join(" "),
-        (r.tags||[]).join(" ")
-      ].map(norm).join(" ");
-      return blob.includes(needle);
-    });
-    render(out);
+    const accessLevel = item.access ? item.access.level : "";
+    if (state.filters.access.size && !state.filters.access.has(accessLevel)) {
+      return false;
+    }
+
+    if (state.filters.modality.size) {
+      const itemMods = new Set(item.modality || []);
+      const ok = Array.from(state.filters.modality).some(v => itemMods.has(v));
+      if (!ok) return false;
+    }
+
+    if (state.filters.domain.size) {
+      const itemDomains = new Set(item.domain || []);
+      const ok = Array.from(state.filters.domain).some(v => itemDomains.has(v));
+      if (!ok) return false;
+    }
+
+    if (state.toggles.open_only && accessLevel !== "open") return false;
+    if (state.toggles.has_audio && !(item.modality || []).includes("audio")) return false;
+    if (state.toggles.has_code) {
+      const hasCode = (item.links || []).some(link => link.kind === "code");
+      if (!hasCode) return false;
+    }
+
+    return true;
   }
-  q.addEventListener("input", apply);
-  render(data);
-});
+
+  function sortItems(items) {
+    const sorted = [...items];
+    sorted.sort((a, b) => {
+      if (state.sort === "title-asc") return a.title.localeCompare(b.title);
+      if (state.sort === "title-desc") return b.title.localeCompare(a.title);
+      const dateA = new Date(a.updated || a.created || "1970-01-01");
+      const dateB = new Date(b.updated || b.created || "1970-01-01");
+      if (state.sort === "date-desc") return dateB - dateA;
+      if (state.sort === "date-asc") return dateA - dateB;
+      return 0;
+    });
+    return sorted;
+  }
+
+  function renderCards(items) {
+    const container = document.getElementById("results");
+    container.innerHTML = "";
+    items.forEach(item => {
+      const card = document.createElement("article");
+      card.className = "card";
+
+      const header = document.createElement("div");
+      header.className = "card-title";
+
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+
+      const badge = document.createElement("span");
+      const accessLevel = item.access ? item.access.level : "unknown";
+      badge.className = `badge ${accessLevel}`;
+      badge.textContent = accessLabels[accessLevel] || accessLevel;
+
+      header.appendChild(title);
+      header.appendChild(badge);
+
+      const meta = document.createElement("div");
+      meta.className = "pill-row";
+      const metaParts = [
+        `type: ${item.resource_type}`,
+        `glottocode: ${item.glottocode}`,
+        item.curation ? `curation: ${item.curation.status}` : null,
+        item.created ? `created: ${item.created}` : null,
+        item.updated ? `updated: ${item.updated}` : null,
+        item.license ? `license: ${item.license}` : null
+      ].filter(Boolean);
+      metaParts.forEach(text => {
+        const pill = document.createElement("span");
+        pill.className = "pill";
+        pill.textContent = text;
+        meta.appendChild(pill);
+      });
+
+      const desc = document.createElement("div");
+      desc.textContent = item.description || "";
+
+      const extras = document.createElement("div");
+      extras.className = "pill-row";
+      const extraParts = [
+        ...(item.modality || []).map(v => `modality: ${v}`),
+        ...(item.domain || []).map(v => `domain: ${v}`),
+        ...(item.formats || []).map(v => `format: ${v}`),
+        ...(item.annotation_layers || []).map(v => `layer: ${v}`)
+      ];
+      extraParts.slice(0, 10).forEach(text => {
+        const pill = document.createElement("span");
+        pill.className = "pill";
+        pill.textContent = text;
+        extras.appendChild(pill);
+      });
+
+      const links = document.createElement("div");
+      links.className = "links";
+      if (Array.isArray(item.links)) {
+        item.links.forEach(link => {
+          const anchor = document.createElement("a");
+          anchor.href = link.url;
+          anchor.target = "_blank";
+          anchor.rel = "noreferrer";
+          anchor.textContent = link.kind;
+          links.appendChild(anchor);
+        });
+      }
+
+      card.appendChild(header);
+      card.appendChild(meta);
+      if (item.description) card.appendChild(desc);
+      if (extraParts.length) card.appendChild(extras);
+      if (item.links && item.links.length) card.appendChild(links);
+
+      container.appendChild(card);
+    });
+  }
+
+  function updateStats(data) {
+    const total = data.length;
+    const uniqueCodes = new Set(data.map(d => d.glottocode)).size;
+    const openCount = data.filter(d => (d.access || {}).level === "open").length;
+    const restrictedCount = data.filter(d => (d.access || {}).level && (d.access || {}).level !== "open").length;
+    const statsEl = document.getElementById("stats");
+    statsEl.innerHTML = "";
+    [
+      `${total} resources`,
+      `${uniqueCodes} glottocodes`,
+      `${openCount} open access`,
+      `${restrictedCount} restricted/controlled/closed`
+    ].forEach(text => {
+      const pill = document.createElement("div");
+      pill.className = "stat";
+      pill.textContent = text;
+      statsEl.appendChild(pill);
+    });
+  }
+
+  function apply(data) {
+    const filtered = data.filter(matchesFilters);
+    const sorted = sortItems(filtered);
+    renderCards(sorted);
+    updateActiveChips();
+    updateActiveFilters();
+    document.getElementById("results-count").textContent = `${sorted.length} result(s)`;
+    return sorted;
+  }
+
+  function downloadJSON(items) {
+    const blob = new Blob([JSON.stringify(items, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "glottocode-registry-filtered.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function copyJSONL(items) {
+    const jsonl = items.map(item => JSON.stringify(item)).join("\n");
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(jsonl).then(() => setStatus("Copied JSONL to clipboard"));
+    } else {
+      const textarea = document.createElement("textarea");
+      textarea.value = jsonl;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      textarea.remove();
+      setStatus("Copied JSONL to clipboard");
+    }
+  }
+
+  load().then(data => {
+    updateStats(data);
+    renderToggleChips();
+    renderChips("filter-resource_type", uniqueValues(data, "resource_type"), "resource_type");
+    renderChips("filter-access", uniqueList(data.map(d => d.access ? d.access.level : "").filter(Boolean)), "access");
+    renderChips("filter-modality", uniqueValues(data, "modality"), "modality");
+    renderChips("filter-domain", uniqueValues(data, "domain"), "domain");
+
+    const search = document.getElementById("search");
+    const sort = document.getElementById("sort");
+
+    function refresh() { return apply(data); }
+
+    search.addEventListener("input", e => {
+      state.q = e.target.value.trim().toLowerCase();
+      refresh();
+    });
+
+    sort.addEventListener("change", e => {
+      state.sort = e.target.value;
+      refresh();
+    });
+
+    document.body.addEventListener("click", e => {
+      const chip = e.target.closest(".chip");
+      if (!chip) return;
+      const group = chip.dataset.group;
+      const value = chip.dataset.value;
+      const toggle = chip.dataset.toggle;
+      if (group && value) {
+        if (state.filters[group].has(value)) {
+          state.filters[group].delete(value);
+        } else {
+          state.filters[group].add(value);
+        }
+      }
+      if (toggle) {
+        state.toggles[toggle] = !state.toggles[toggle];
+      }
+      refresh();
+    });
+
+    document.getElementById("reset").addEventListener("click", () => {
+      state.q = "";
+      search.value = "";
+      state.sort = "title-asc";
+      sort.value = "title-asc";
+      Object.values(state.filters).forEach(set => set.clear());
+      Object.keys(state.toggles).forEach(key => { state.toggles[key] = false; });
+      refresh();
+    });
+
+    document.getElementById("export-json").addEventListener("click", () => {
+      const items = refresh();
+      downloadJSON(items);
+      setStatus(`Exported ${items.length} item(s)`);
+    });
+
+    document.getElementById("copy-jsonl").addEventListener("click", () => {
+      const items = refresh();
+      copyJSONL(items);
+    });
+
+    refresh();
+  });
 </script>
 </body>
 </html>

@@ -16,13 +16,13 @@
     ],
     "formats": [
       "wav",
-      "TextGrid",
+      "textgrid",
       "eaf",
       "jsonl"
     ],
     "annotation_layers": [
       "orthographic transcription",
-      "speaker diarisation",
+      "speaker diarization",
       "turn boundaries",
       "prosodic phrasing"
     ],
@@ -44,9 +44,9 @@
     "provenance": {
       "source_catalog": "manual",
       "source_record": "prototype",
-      "last_verified": "2026-01-02"
+      "last_verified": "2026-01-01"
     },
-    "created": "2026-01-02",
+    "created": "2026-01-01",
     "curation": {
       "status": "seed",
       "maintainers": [
@@ -77,7 +77,7 @@
       "conllu"
     ],
     "annotation_layers": [
-      "tokenisation",
+      "tokenization",
       "lemmas",
       "morphological features",
       "dependency relations"
@@ -97,7 +97,7 @@
         "url": "https://example.org/treebank"
       }
     ],
-    "created": "2026-01-02",
+    "created": "2026-01-01",
     "curation": {
       "status": "seed",
       "maintainers": [

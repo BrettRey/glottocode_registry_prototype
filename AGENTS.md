@@ -4,6 +4,7 @@
 - `schema/resource.schema.json`: JSON Schema for registry entries.
 - `data/registry.jsonl`: Registry data; one JSON object per line.
 - `scripts/validate.py`: JSON Schema validator for registry entries.
+- `scripts/quality.py`: Data quality checks beyond schema validation.
 - `web/index.html`: Static search UI.
 - `web/registry.json`: JSON array consumed by the UI; keep it in sync with `data/registry.jsonl`.
 - `README.md`, `STATUS.md`, `CLAUDE.md`: Project context and workflow notes.
@@ -12,6 +13,9 @@
 - Validate registry data:
   - `python scripts/validate.py data/registry.jsonl schema/resource.schema.json`
   - Fails on schema errors; prints line numbers and paths.
+- Run quality checks:
+  - `python scripts/quality.py data/registry.jsonl web/registry.json`
+  - Checks duplicates, landing links, date ordering, and web registry sync.
 - Serve the UI locally:
   - `python -m http.server 8000 --directory web`
   - Then open `http://localhost:8000` in a browser.
