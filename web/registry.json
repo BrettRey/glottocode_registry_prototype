@@ -103,5 +103,4405 @@
     "tags": [
       "placeholder"
     ]
+  },
+  {
+    "resource_id": "wikipedia-aar",
+    "glottocode": "afar1241",
+    "title": "Wikipedia dump for Afar",
+    "description": "Wikipedia XML dump for Afar (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/aawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "aawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-abk",
+    "glottocode": "abkh1244",
+    "title": "Wikipedia dump for Abkhaz",
+    "description": "Wikipedia XML dump for Abkhaz (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/abwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "abwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ace",
+    "glottocode": "achi1257",
+    "title": "Wikipedia dump for Acehnese",
+    "description": "Wikipedia XML dump for Acehnese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/acewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "acewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ady",
+    "glottocode": "adyg1241",
+    "title": "Wikipedia dump for West Circassian",
+    "description": "Wikipedia XML dump for West Circassian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/adywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "adywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-afr",
+    "glottocode": "afri1274",
+    "title": "Wikipedia dump for Afrikaans",
+    "description": "Wikipedia XML dump for Afrikaans (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/afwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "afwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-aka",
+    "glottocode": "akan1250",
+    "title": "Wikipedia dump for Akan",
+    "description": "Wikipedia XML dump for Akan (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/akwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "akwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-alt",
+    "glottocode": "sout2694",
+    "title": "Wikipedia dump for Southern Altai",
+    "description": "Wikipedia XML dump for Southern Altai (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/altwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "altwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-amh",
+    "glottocode": "amha1245",
+    "title": "Wikipedia dump for Amharic",
+    "description": "Wikipedia XML dump for Amharic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/amwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "amwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ami",
+    "glottocode": "amis1246",
+    "title": "Wikipedia dump for Amis",
+    "description": "Wikipedia XML dump for Amis (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/amiwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "amiwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-arg",
+    "glottocode": "arag1245",
+    "title": "Wikipedia dump for Aragonese",
+    "description": "Wikipedia XML dump for Aragonese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/anwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "anwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ang",
+    "glottocode": "olde1238",
+    "title": "Wikipedia dump for Old English (ca. 450-1100)",
+    "description": "Wikipedia XML dump for Old English (ca. 450-1100) (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/angwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "angwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ann",
+    "glottocode": "obol1243",
+    "title": "Wikipedia dump for Obolo",
+    "description": "Wikipedia XML dump for Obolo (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/annwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "annwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-anp",
+    "glottocode": "angi1238",
+    "title": "Wikipedia dump for Angika",
+    "description": "Wikipedia XML dump for Angika (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/anpwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "anpwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-arc",
+    "glottocode": "impe1235",
+    "title": "Wikipedia dump for Imperial Aramaic (700-300 BCE)",
+    "description": "Wikipedia XML dump for Imperial Aramaic (700-300 BCE) (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/arcwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "arcwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ary",
+    "glottocode": "moro1292",
+    "title": "Wikipedia dump for Moroccan Arabic",
+    "description": "Wikipedia XML dump for Moroccan Arabic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/arywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "arywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-arz",
+    "glottocode": "egyp1253",
+    "title": "Wikipedia dump for Egyptian Arabic",
+    "description": "Wikipedia XML dump for Egyptian Arabic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/arzwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "arzwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-asm",
+    "glottocode": "assa1263",
+    "title": "Wikipedia dump for Assamese",
+    "description": "Wikipedia XML dump for Assamese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/aswiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "aswiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ast",
+    "glottocode": "astu1245",
+    "title": "Wikipedia dump for Asturian-Leonese-Cantabrian",
+    "description": "Wikipedia XML dump for Asturian-Leonese-Cantabrian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/astwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "astwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-atj",
+    "glottocode": "atik1240",
+    "title": "Wikipedia dump for Atikamekw",
+    "description": "Wikipedia XML dump for Atikamekw (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/atjwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "atjwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ava",
+    "glottocode": "avar1256",
+    "title": "Wikipedia dump for Avar",
+    "description": "Wikipedia XML dump for Avar (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/avwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "avwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-avk",
+    "glottocode": "kota1280",
+    "title": "Wikipedia dump for Kotava",
+    "description": "Wikipedia XML dump for Kotava (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/avkwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "avkwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-awa",
+    "glottocode": "awad1243",
+    "title": "Wikipedia dump for Awadhi",
+    "description": "Wikipedia XML dump for Awadhi (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/awawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "awawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-azb",
+    "glottocode": "sout2697",
+    "title": "Wikipedia dump for South Azerbaijani",
+    "description": "Wikipedia XML dump for South Azerbaijani (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/azbwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "azbwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bak",
+    "glottocode": "bash1264",
+    "title": "Wikipedia dump for Bashkir",
+    "description": "Wikipedia XML dump for Bashkir (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ban",
+    "glottocode": "bali1278",
+    "title": "Wikipedia dump for Balinese",
+    "description": "Wikipedia XML dump for Balinese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/banwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "banwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bar",
+    "glottocode": "bava1246",
+    "title": "Wikipedia dump for Bavarian",
+    "description": "Wikipedia XML dump for Bavarian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/barwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "barwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bbc",
+    "glottocode": "bata1289",
+    "title": "Wikipedia dump for Batak Toba",
+    "description": "Wikipedia XML dump for Batak Toba (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bbcwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bbcwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bcl",
+    "glottocode": "cent2087",
+    "title": "Wikipedia dump for Coastal-Naga Bikol",
+    "description": "Wikipedia XML dump for Coastal-Naga Bikol (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bclwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bclwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bdr",
+    "glottocode": "west2560",
+    "title": "Wikipedia dump for West Coast Bajau",
+    "description": "Wikipedia XML dump for West Coast Bajau (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bdrwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bdrwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bel",
+    "glottocode": "bela1254",
+    "title": "Wikipedia dump for Belarusian",
+    "description": "Wikipedia XML dump for Belarusian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bew",
+    "glottocode": "beta1252",
+    "title": "Wikipedia dump for Betawi",
+    "description": "Wikipedia XML dump for Betawi (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bewwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bewwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bul",
+    "glottocode": "bulg1262",
+    "title": "Wikipedia dump for Bulgarian",
+    "description": "Wikipedia XML dump for Bulgarian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bgwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bgwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bis",
+    "glottocode": "bisl1239",
+    "title": "Wikipedia dump for Bislama",
+    "description": "Wikipedia XML dump for Bislama (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/biwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "biwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bjn",
+    "glottocode": "banj1239",
+    "title": "Wikipedia dump for Banjar",
+    "description": "Wikipedia XML dump for Banjar (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bjnwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bjnwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-blk",
+    "glottocode": "paok1235",
+    "title": "Wikipedia dump for Pa'o Karen",
+    "description": "Wikipedia XML dump for Pa'o Karen (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/blkwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "blkwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bam",
+    "glottocode": "bamb1269",
+    "title": "Wikipedia dump for Bambara",
+    "description": "Wikipedia XML dump for Bambara (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bmwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bmwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ben",
+    "glottocode": "beng1280",
+    "title": "Wikipedia dump for Bengali",
+    "description": "Wikipedia XML dump for Bengali (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bnwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bnwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bod",
+    "glottocode": "tibe1272",
+    "title": "Wikipedia dump for Tibetan",
+    "description": "Wikipedia XML dump for Tibetan (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bpy",
+    "glottocode": "bish1244",
+    "title": "Wikipedia dump for Bishnupriya Manipuri",
+    "description": "Wikipedia XML dump for Bishnupriya Manipuri (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bpywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bpywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bre",
+    "glottocode": "bret1244",
+    "title": "Wikipedia dump for Breton",
+    "description": "Wikipedia XML dump for Breton (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/brwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "brwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-btm",
+    "glottocode": "bata1291",
+    "title": "Wikipedia dump for Batak Mandailing",
+    "description": "Wikipedia XML dump for Batak Mandailing (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/btmwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "btmwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bug",
+    "glottocode": "bugi1244",
+    "title": "Wikipedia dump for Buginese",
+    "description": "Wikipedia XML dump for Buginese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bugwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bugwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-bxr",
+    "glottocode": "russ1264",
+    "title": "Wikipedia dump for Russia Buriat",
+    "description": "Wikipedia XML dump for Russia Buriat (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/bxrwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "bxrwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cat",
+    "glottocode": "stan1289",
+    "title": "Wikipedia dump for Catalan",
+    "description": "Wikipedia XML dump for Catalan (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cdo",
+    "glottocode": "mind1253",
+    "title": "Wikipedia dump for Min Dong Chinese",
+    "description": "Wikipedia XML dump for Min Dong Chinese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cdowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cdowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-che",
+    "glottocode": "chec1245",
+    "title": "Wikipedia dump for Chechen",
+    "description": "Wikipedia XML dump for Chechen (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ceb",
+    "glottocode": "cebu1242",
+    "title": "Wikipedia dump for Cebuano",
+    "description": "Wikipedia XML dump for Cebuano (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cebwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cebwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cha",
+    "glottocode": "cham1312",
+    "title": "Wikipedia dump for Chamorro",
+    "description": "Wikipedia XML dump for Chamorro (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/chwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "chwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cho",
+    "glottocode": "choc1276",
+    "title": "Wikipedia dump for Choctaw",
+    "description": "Wikipedia XML dump for Choctaw (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/chowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "chowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-chr",
+    "glottocode": "cher1273",
+    "title": "Wikipedia dump for Cherokee",
+    "description": "Wikipedia XML dump for Cherokee (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/chrwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "chrwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-chy",
+    "glottocode": "chey1247",
+    "title": "Wikipedia dump for Cheyenne",
+    "description": "Wikipedia XML dump for Cheyenne (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/chywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "chywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ckb",
+    "glottocode": "cent1972",
+    "title": "Wikipedia dump for Central Kurdish",
+    "description": "Wikipedia XML dump for Central Kurdish (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/ckbwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "ckbwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cos",
+    "glottocode": "cors1241",
+    "title": "Wikipedia dump for Corsican",
+    "description": "Wikipedia XML dump for Corsican (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-crh",
+    "glottocode": "crim1257",
+    "title": "Wikipedia dump for Crimean Tatar",
+    "description": "Wikipedia XML dump for Crimean Tatar (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/crhwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "crhwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ces",
+    "glottocode": "czec1258",
+    "title": "Wikipedia dump for Czech",
+    "description": "Wikipedia XML dump for Czech (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cswiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cswiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-csb",
+    "glottocode": "kash1274",
+    "title": "Wikipedia dump for Kashubian",
+    "description": "Wikipedia XML dump for Kashubian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/csbwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "csbwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-chu",
+    "glottocode": "chur1257",
+    "title": "Wikipedia dump for Church Slavic",
+    "description": "Wikipedia XML dump for Church Slavic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cuwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cuwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-chv",
+    "glottocode": "chuv1255",
+    "title": "Wikipedia dump for Chuvash",
+    "description": "Wikipedia XML dump for Chuvash (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cvwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cvwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-cym",
+    "glottocode": "wels1247",
+    "title": "Wikipedia dump for Welsh",
+    "description": "Wikipedia XML dump for Welsh (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/cywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "cywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dan",
+    "glottocode": "dani1285",
+    "title": "Wikipedia dump for Danish",
+    "description": "Wikipedia XML dump for Danish (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dag",
+    "glottocode": "dagb1246",
+    "title": "Wikipedia dump for Dagbani",
+    "description": "Wikipedia XML dump for Dagbani (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dagwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dagwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-deu",
+    "glottocode": "stan1295",
+    "title": "Wikipedia dump for German",
+    "description": "Wikipedia XML dump for German (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dga",
+    "glottocode": "sout2789",
+    "title": "Wikipedia dump for Central Dagaare",
+    "description": "Wikipedia XML dump for Central Dagaare (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dgawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dgawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-diq",
+    "glottocode": "diml1238",
+    "title": "Wikipedia dump for Dimli",
+    "description": "Wikipedia XML dump for Dimli (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/diqwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "diqwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dsb",
+    "glottocode": "lowe1385",
+    "title": "Wikipedia dump for Lower Sorbian",
+    "description": "Wikipedia XML dump for Lower Sorbian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dsbwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dsbwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dtp",
+    "glottocode": "cent2100",
+    "title": "Wikipedia dump for Kadazan Dusun",
+    "description": "Wikipedia XML dump for Kadazan Dusun (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dtpwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dtpwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dty",
+    "glottocode": "doty1234",
+    "title": "Wikipedia dump for Dotyali",
+    "description": "Wikipedia XML dump for Dotyali (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dtywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dtywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-div",
+    "glottocode": "dhiv1236",
+    "title": "Wikipedia dump for Dhivehi",
+    "description": "Wikipedia XML dump for Dhivehi (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dvwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dvwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-dzo",
+    "glottocode": "dzon1239",
+    "title": "Wikipedia dump for Dzongkha",
+    "description": "Wikipedia XML dump for Dzongkha (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/dzwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "dzwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ewe",
+    "glottocode": "ewee1241",
+    "title": "Wikipedia dump for Ewe",
+    "description": "Wikipedia XML dump for Ewe (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/eewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "eewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ell",
+    "glottocode": "mode1248",
+    "title": "Wikipedia dump for Modern Greek",
+    "description": "Wikipedia XML dump for Modern Greek (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/elwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "elwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-eng",
+    "glottocode": "stan1293",
+    "title": "Wikipedia dump for English",
+    "description": "Wikipedia XML dump for English (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/enwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "enwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-epo",
+    "glottocode": "espe1235",
+    "title": "Wikipedia dump for Esperanto",
+    "description": "Wikipedia XML dump for Esperanto (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/eowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "eowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-spa",
+    "glottocode": "stan1288",
+    "title": "Wikipedia dump for Spanish",
+    "description": "Wikipedia XML dump for Spanish (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/eswiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "eswiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-eus",
+    "glottocode": "basq1248",
+    "title": "Wikipedia dump for Basque",
+    "description": "Wikipedia XML dump for Basque (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/euwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "euwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-ext",
+    "glottocode": "extr1243",
+    "title": "Wikipedia dump for Extremaduran",
+    "description": "Wikipedia XML dump for Extremaduran (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/extwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "extwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fin",
+    "glottocode": "finn1318",
+    "title": "Wikipedia dump for Finnish",
+    "description": "Wikipedia XML dump for Finnish (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/fiwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "fiwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fij",
+    "glottocode": "fiji1243",
+    "title": "Wikipedia dump for Fijian",
+    "description": "Wikipedia XML dump for Fijian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/fjwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "fjwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fao",
+    "glottocode": "faro1244",
+    "title": "Wikipedia dump for Faroese",
+    "description": "Wikipedia XML dump for Faroese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/fowiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "fowiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fon",
+    "glottocode": "fonn1241",
+    "title": "Wikipedia dump for Fon",
+    "description": "Wikipedia XML dump for Fon (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/fonwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "fonwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fra",
+    "glottocode": "stan1290",
+    "title": "Wikipedia dump for French",
+    "description": "Wikipedia XML dump for French (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/frwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "frwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-frp",
+    "glottocode": "fran1260",
+    "title": "Wikipedia dump for Arpitan",
+    "description": "Wikipedia XML dump for Arpitan (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/frpwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "frpwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-frr",
+    "glottocode": "nort2626",
+    "title": "Wikipedia dump for Northern Frisian",
+    "description": "Wikipedia XML dump for Northern Frisian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/frrwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "frrwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fur",
+    "glottocode": "friu1240",
+    "title": "Wikipedia dump for Friulian",
+    "description": "Wikipedia XML dump for Friulian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/furwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "furwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-fry",
+    "glottocode": "west2354",
+    "title": "Wikipedia dump for Western Frisian",
+    "description": "Wikipedia XML dump for Western Frisian (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/fywiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "fywiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gle",
+    "glottocode": "iris1253",
+    "title": "Wikipedia dump for Irish",
+    "description": "Wikipedia XML dump for Irish (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gawiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gawiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gag",
+    "glottocode": "gaga1249",
+    "title": "Wikipedia dump for Gagauz",
+    "description": "Wikipedia XML dump for Gagauz (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gagwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gagwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gan",
+    "glottocode": "ganc1239",
+    "title": "Wikipedia dump for Gan Chinese",
+    "description": "Wikipedia XML dump for Gan Chinese (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/ganwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "ganwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gcr",
+    "glottocode": "guia1246",
+    "title": "Wikipedia dump for Guianese Creole French",
+    "description": "Wikipedia XML dump for Guianese Creole French (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gcrwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gcrwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gla",
+    "glottocode": "scot1245",
+    "title": "Wikipedia dump for Scottish Gaelic",
+    "description": "Wikipedia XML dump for Scottish Gaelic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gdwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gdwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-glg",
+    "glottocode": "gali1258",
+    "title": "Wikipedia dump for Galician",
+    "description": "Wikipedia XML dump for Galician (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/glwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "glwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-glk",
+    "glottocode": "gila1241",
+    "title": "Wikipedia dump for Gilaki",
+    "description": "Wikipedia XML dump for Gilaki (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/glkwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "glkwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gom",
+    "glottocode": "goan1235",
+    "title": "Wikipedia dump for Goan Konkani",
+    "description": "Wikipedia XML dump for Goan Konkani (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gomwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gomwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gor",
+    "glottocode": "goro1259",
+    "title": "Wikipedia dump for Gorontalo",
+    "description": "Wikipedia XML dump for Gorontalo (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gorwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gorwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-got",
+    "glottocode": "goth1244",
+    "title": "Wikipedia dump for Gothic",
+    "description": "Wikipedia XML dump for Gothic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gotwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gotwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gpe",
+    "glottocode": "ghan1244",
+    "title": "Wikipedia dump for Ghanaian Pidgin English",
+    "description": "Wikipedia XML dump for Ghanaian Pidgin English (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gpewiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gpewiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gsw",
+    "glottocode": "swis1247",
+    "title": "Wikipedia dump for Central Alemannic",
+    "description": "Wikipedia XML dump for Central Alemannic (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/alswiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "alswiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-guj",
+    "glottocode": "guja1252",
+    "title": "Wikipedia dump for Gujarati",
+    "description": "Wikipedia XML dump for Gujarati (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/guwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "guwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-guc",
+    "glottocode": "wayu1243",
+    "title": "Wikipedia dump for Wayuu",
+    "description": "Wikipedia XML dump for Wayuu (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gucwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gucwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
+  },
+  {
+    "resource_id": "wikipedia-gur",
+    "glottocode": "fare1241",
+    "title": "Wikipedia dump for Farefare",
+    "description": "Wikipedia XML dump for Farefare (open text corpus).",
+    "resource_type": "corpus",
+    "modality": [
+      "text"
+    ],
+    "domain": [
+      "other"
+    ],
+    "formats": [
+      "xml"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "access": {
+      "level": "open",
+      "constraints": []
+    },
+    "links": [
+      {
+        "kind": "landing",
+        "url": "https://dumps.wikimedia.org/gurwiki/"
+      }
+    ],
+    "provenance": {
+      "source_catalog": "wikimedia",
+      "source_record": "gurwiki",
+      "last_verified": "2026-01-02"
+    },
+    "created": "2026-01-02",
+    "curation": {
+      "status": "seed",
+      "maintainers": [
+        "@you"
+      ],
+      "notes": "Generated from Wikimedia dumps."
+    },
+    "tags": [
+      "wikipedia",
+      "dump"
+    ]
   }
 ]
